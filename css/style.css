@@ -1,0 +1,554 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html,body{
+	height: 100%;
+	line-height: 1;
+	color: #ffffff;
+	background-color: #000000;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/*----------------------Added-by-Self----------------------*/
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*-----------x----------Added-by-Self----------x------------*/
+
+/*----------------------Global-Classes----------------------*/
+a{
+    text-decoration: none;
+    color: #3f4954;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #3f4954;
+}
+
+ul{
+    list-style-type: none;
+}
+/*-----------x----------Global-Classes----------x-----------*/
+
+/*-------------------------Navbar--------------------------*/
+
+.nav{
+    background: black;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    z-index: 9;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse{        
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+    z-index: 9;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{        /*---------hamburger_icon----------*/
+    margin-top: -13px;
+    font-size: 1.8rem;
+    color: azure;
+    z-index: 9;
+}
+
+.nav .toggle-collapse .toggle-icons i:hover{
+    color: crimson;
+    z-index: 9;
+}
+
+.collapse{        /*-------------increase_height_of_menu-----------*/
+    height: 46rem;
+    z-index: 9;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+    z-index: 9;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: Abel;
+    font-size: 1.1rem;
+    z-index: 9;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: darkorange;
+    z-index: 9;
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: white;
+    z-index: 9;
+}
+
+.nav .nav-brand a{        /*-------Endeavour-Icon--------*/
+    margin-top: -75px;
+    display: block;
+    z-index: 9;
+}
+
+.nav .social{             /*-------Social-Icons--------*/
+    padding: 1.4rem 0;
+    margin-top: -6px;
+    z-index: 9;
+}
+
+.nav .social i{
+    padding: 0 .5rem; 
+    font-size: 2rem;
+    z-index: 9;
+}
+
+.nav .social i:hover{
+    color: white;
+    z-index: 9;
+}
+/*--------------x----------Navbar------------x-------------*/
+
+
+/*-------------------------Home_Section--------------------*/
+
+section{
+    padding: 60px 0;
+    height: 100%;
+    position: relative;
+}
+
+.home{
+    color: aqua;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("../images/442718.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #344945e;
+    background-attachment: fixed;
+    z-index: 9;
+}
+
+.home h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    text-shadow: 0 15px 20px #000000b0;
+    margin-bottom: 20px;
+    visibility: hidden;    
+}
+
+.home h3{
+    background: #000;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 0 50px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    margin-bottom: 100px;
+    margin-top: -200px;
+}
+
+/*------------x------------Home_Section--------x-----------*/
+
+
+/*--------------------------About_Section------------------*/
+
+.section-title{
+    text-align: center;
+    z-index: 9;
+}
+
+.section-title h2{
+    display: inline-block;
+    font-size: 28px;
+    border-bottom: 1px solid;
+    border-color: #00ccff;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    z-index: 9;
+}
+
+.about-info{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px auto;
+    text-align: center;
+    z-index: 99;
+}
+
+.about-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.about-info .know-more{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #00ccff;
+    border: 1px solid #00ccff;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 15px;
+    position: relative;
+    z-index: 999;
+}
+
+.timeline{
+    margin-top: 50px;
+    display: grid;
+}
+
+.timeline .col{
+    margin: 5px;
+    padding: 25px 5px;
+    border: 1px solid #00ccff;
+    float: left;
+}
+
+.timeline h6{
+    margin: 15px 0 0;
+    font-size: 24px;
+    line-height: 24px;
+}
+/*--------------x-----------About_Section--------x---------*/
+
+/*--------------------------Vision_Section------------------*/
+
+.vision-title{
+    text-align: center;
+}
+
+.vision-title h2{
+    display: inline-block;
+    font-size: 28px;
+    border-bottom: 1px solid;
+    border-color: #00ccff;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+}
+
+.vision-info{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px auto;
+    text-align: center;
+    z-index: 99;
+}
+
+.vision-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.mission-title{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mission-title h2{
+    display: inline-block;
+    font-size: 28px;
+    border-bottom: 1px solid;
+    border-color: #00ccff;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+}
+
+.mission-info{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px auto;
+    text-align: center;
+    z-index: 99;
+}
+
+.mission-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+
+/*--------------x-----------Vision_Section--------x---------*/
+
+/*--------------------------Domain_Section------------------*/
+
+.domain{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.domain .domain-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.domain .col{
+    width: 40%;
+    margin: 25px 30px;
+    text-align: center;
+}
+
+.domain .col img{
+    max-width: 48px;
+}
+
+.domain .col h3{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.domain .col p{
+    line-height: 28px;
+}
+/*--------------x-----------Domain_Section--------x---------*/
+
+
+/*-------------------------------OurWork---------------------*/
+.ourwork{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+}
+
+.ourwork-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    z-index: 9;
+}
+
+.ourwork-info .col{
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+
+.ourwork-info .col img{
+    max-width: 100%;
+}
+/*--------------x----------------OurWork----------x----------*/
+
+/*-------------------------ContactUs_Section--------------------------*/
+
+.contact{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.contact-info .textField{
+    width: 100%;
+    height: 20%;
+    border: none;
+    border-bottom: 1px solid #00ccff;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    font-family: "Abel";
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-info .messageField{
+    height: 150px;
+}
+
+.contact-info .submitButton{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: whitesmoke;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.contact-info .submitButton:hover{
+    background-color: darkslateblue;
+    color: black;
+}
+/*-------------x-----------ContactUs_Section------------x-------------*/
+
+
+
+
+
+/*-------------------------Viewport less than or equal to 750px----------------------*/
+
+@media only screen and (max-width:750px){
+    .nav .nav-menu,.nav .nav-items{
+        flex-direction: column;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    
+    .domain .domain-info{
+    display: grid;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+    
+    .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
+    padding: 0 2.1rem; 
+    font-size: 2.1rem;
+}
+    
+    /*--------AboutInfoParagraph------*/
+    .about-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+    /*----x---AboutInfoParagraph---x--*/
+    
+    /*------------Domain--------------*/
+    
+    .domain{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    z-index: 1;
+}
+
+.domain .domain-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.domain .col{
+    width: 600%;
+    margin: 25px 40px;
+    text-align: center;
+}
+
+    
+    /*------x-----Domain------x-------*/
+    
+    
+    /*---------------OurWork----------*/
+    .ourwork{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+    margin-top: 100%;
+}
+    
+    .ourwork-info{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .ourwork-info .col{
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+    /*--------x------OurWork----x-----*/
+
+
+/*------------x-----------Viewport less than or equal to 750px----------x-----------*/
