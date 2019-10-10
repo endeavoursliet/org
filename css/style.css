@@ -52,12 +52,8 @@ table {
 	border-spacing: 0;
 }
 
-#particles-js{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+
+
 
 /*----------------------Added-by-Self----------------------*/
 html, body{
@@ -83,6 +79,14 @@ a{
 ul{
     list-style-type: none;
 }
+
+#particles-js{
+    position: fixed;
+    width: 99%;
+    height: 100%;
+    z-index: 0;
+}
+
 /*-----------x----------Global-Classes----------x-----------*/
 
 /*-------------------------Navbar--------------------------*/
@@ -119,8 +123,8 @@ ul{
 .nav .toggle-collapse .toggle-icons i{        /*---------hamburger_icon----------*/
     margin-top: -13px;
     font-size: 1.8rem;
-    color: azure;
-    z-index: 9;
+    color: white;
+    z-index: 1;
 }
 
 .nav .toggle-collapse .toggle-icons i:hover{
@@ -129,7 +133,7 @@ ul{
 }
 
 .collapse{        /*-------------increase_height_of_menu-----------*/
-    height: 46rem;
+    height: 48rem;
     z-index: 9;
 }
 
@@ -143,7 +147,7 @@ ul{
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
-    font-family: Abel;
+    font-family: 'Abel';
     font-size: 1.1rem;
     z-index: 9;
 }
@@ -211,7 +215,7 @@ section{
     text-transform: uppercase;
     text-shadow: 0 15px 20px #000000b0;
     margin-bottom: 20px;
-    visibility: hidden;    
+    visibility: hidden;
 }
 
 .home h3{
@@ -477,6 +481,14 @@ section{
 /*-------------------------Viewport less than or equal to 750px----------------------*/
 
 @media only screen and (max-width:750px){
+    
+    #particles-js{
+    position: fixed;
+    width: 99%;
+    height: 100%;
+    z-index: 0;
+}
+    
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
     }
@@ -492,8 +504,8 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1.6rem; 
-    font-size: 2rem;
+    padding: 0 1.8rem; 
+    font-size: 2.1rem;
 }
     
     /*--------AboutInfoParagraph------*/
@@ -511,15 +523,16 @@ section{
     padding: 50px 0px;
     text-align: center;
     z-index: 1;
+    margin-top: -300px;
 }
 
-.domain .domain-info{
+    .domain .domain-info{
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
 }
 
-.domain .col{
+    .domain .col{
     width: 600%;
     margin: 25px 40px;
     text-align: center;
@@ -549,6 +562,183 @@ section{
     margin: 1%;
 }
     /*--------x------OurWork----x-----*/
-
-
+    
 /*------------x-----------Viewport less than or equal to 750px----------x-----------*/
+    
+
+    
+/*-------------------------Viewport less than or equal to 392px----------------------*/
+    
+@media only screen and (max-width:392px){
+    
+    #particles-js{
+    position: fixed;
+    width: 99%;
+    height: 100%;
+    z-index: 0;
+}
+    
+    .nav .nav-menu,.nav .nav-items{
+        flex-direction: column;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    
+    .domain .domain-info{
+    display: grid;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+    
+    .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
+    padding: 0 1.1rem; 
+    font-size: 2.2rem;
+}
+    
+    /*--------AboutInfoParagraph------*/
+    .about-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+    /*----x---AboutInfoParagraph---x--*/
+    
+    /*------------Domain--------------*/
+    .domain{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    z-index: 1;
+    margin-top: -55px;
+}
+
+    .domain .domain-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+    .domain .col{
+    width: 600%;
+    margin: 25px 40px;
+    text-align: center;
+}
+    /*------x-----Domain------x-------*/
+    
+    
+    /*---------------OurWork----------*/
+    .ourwork{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+    margin-top: 170%;
+}
+    
+    .ourwork-info{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .ourwork-info .col{
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+    /*--------x------OurWork----x-----*/
+    
+/*-------------x-----------Viewport less than or equal to 392px---------x------------*/
+    
+    
+    /*-------------------------Viewport less than or equal to 320px----------------------*/
+    
+@media only screen and (max-width:320px){
+    
+    #particles-js{
+    position: fixed;
+    width: 99%;
+    height: 100%;
+    z-index: 0;
+}
+    
+    .nav .nav-menu,.nav .nav-items{
+        flex-direction: column;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    
+    .domain .domain-info{
+    display: grid;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+    
+    .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
+    padding: 0 0.9rem; 
+    font-size: 2.1rem;
+}
+    
+    /*--------AboutInfoParagraph------*/
+    .about-info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+    /*----x---AboutInfoParagraph---x--*/
+    
+    /*------------Domain--------------*/
+    .vision-title{
+    text-align: center;
+        margin-top: 40%;
+    }
+    /*-----x------Domain------x-------*/
+    
+    /*------------Domain--------------*/
+    .domain{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    z-index: 1;
+    margin-top: 95px;
+}
+
+    .domain .domain-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+    .domain .col{
+    width: 600%;
+    margin: 25px 40px;
+    text-align: center;
+}
+    /*------x-----Domain------x-------*/
+    
+    
+    /*---------------OurWork----------*/
+    .ourwork{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+    margin-top: 250%;
+}
+    
+    .ourwork-info{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .ourwork-info .col{
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+    /*--------x------OurWork----x-----*/
+    
+/*------------x------------Viewport less than or equal to 320px---------x------------*/
