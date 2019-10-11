@@ -12,6 +12,10 @@
     <!----------------------CustomCss-------------------------->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     
+    <!----------------------AnimateOnScroll-------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-----------x----------AnimateOnScroll---------x---------------->
+    
     <!-------Font Awesome Icons------------>
     <link rel="stylesheet" href="./css/all.css">
     
@@ -79,7 +83,7 @@
  <!-----------x-------------Navigation------------x------------->      
 
  <!-------------------------Home_Section-------------------------->
-    <section id="home" class="home wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">
+    <section id="home" class="home wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.2s">
         <div id="name">
             <h1 class="wow fadeInUp" data-wow-duration="3s" data-wow-delay="1.9s">ENDEAVOUR</h1>
             <h3 class="wow fadeInDown" data-wow-duration="4s" data-wow-delay="1.4s">Strive to create difference</h3>
@@ -88,13 +92,12 @@
  <!------------x------------Home_Section-----------x-------------->
                         
  <!-------------------------About_Section-------------------------->
-     <section id="about" class="about">
-     <div class="section-title">
+     <section id="about" class="about animated fadeInUpBig delay-2s">
+        <div class="section-title">
          <h2>ABOUT TEAM</h2>
      </div>
      <div class="about-info">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quia obcaecati aperiam consequuntur explicabo ratione dicta cupiditate eligendi porro, iure eum saepe optio voluptates officia, minima repellat delectus amet sunt!
-         </p>
+         <p class="type"></p>
          <a href="#" class="know-more">Know More</a>
          
         <div class="timeline">        <!----------timeline------------->
@@ -213,7 +216,6 @@
 
 
 
-
 <!-----------------Jquery Library File------------>
 <script src="./js/Jquery3.4.1.min.js"></script>
 <!-------x----------Jquery Library File----x------>
@@ -227,10 +229,24 @@
     new WOW().init();
 </script>
 
-
 <!--------------Custom Javascript File------------>
 <script src="./js/main.js"></script>
 <!------x-------Custom Javascript File-----x------>
+
+<!-----------------Jquery2----------------->
+<script src="js/jquery.2.min.js"></script>
+<!-------x---------Jquery2-------x--------->
+
+<!-----------------TypedJs----------------->
+<script src="js/typed.min.js"></script>
+<script type="text/javascript">
+    var typed = new Typed('.type', {
+  strings: ["Welcome.", "Hello Mates! Get to know our team better, which is not only a team but as we say - an Emotion.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet debitis ab facere quam quas molestiae vitae assumenda natus ullam, quo dicta magni illum maxime aliquam vel pariatur in necessitatibus incidunt!."],
+  loop: true,
+  typeSpeed: 30,
+});
+</script>
+<!--------x--------TypedJs-------x--------->
 
 
 </body>
