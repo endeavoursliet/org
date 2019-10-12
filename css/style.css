@@ -66,14 +66,14 @@ html, body{
 /*----------------------Global-Classes----------------------*/
 a{
     text-decoration: none;
-    color: #3f4954;
+    color: white;
 }
 
 .flex-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: #3f4954;
+    color: white;
 }
 
 ul{
@@ -181,7 +181,7 @@ ul{
 }
 
 .nav .social i:hover{
-    color: white;
+    color: darkviolet;
     z-index: 9;
 }
 /*--------------x----------Navbar------------x-------------*/
@@ -504,15 +504,15 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1.6rem; 
-    font-size: 2.1rem;
-}
+    padding: 0 1.7rem; 
+    font-size: 2rem;
+    }
     
     /*--------AboutInfoParagraph------*/
     .about-info p{
     line-height: 28px;
     font-size: 18px;
-}
+    }
     /*----x---AboutInfoParagraph---x--*/
     
     /*------------Domain--------------*/
@@ -547,7 +547,7 @@ section{
     width: 90%;
     margin: 0 auto;
     padding: 50px 0;
-    z-index: 99;
+    z-index: 9;
     margin-top: 100%;
 }
     
@@ -560,7 +560,7 @@ section{
     float: left;
     width: 100%;
     margin: 1%;
-}
+    }
     /*--------x------OurWork----x-----*/
     
 /*------------x-----------Viewport less than or equal to 750px----------x-----------*/
@@ -593,8 +593,8 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1.1rem; 
-    font-size: 2.2rem;
+    padding: 0 1rem; 
+    font-size: 2rem;
 }
     
     /*--------AboutInfoParagraph------*/
@@ -633,7 +633,7 @@ section{
     width: 90%;
     margin: 0 auto;
     padding: 50px 0;
-    z-index: 99;
+    z-index: 9;
     margin-top: 170%;
 }
     
@@ -649,7 +649,7 @@ section{
 }
     /*--------x------OurWork----x-----*/
     
-/*-------------x-----------Viewport less than or equal to 392px---------x------------*/
+/*-------------------------Viewport less than or equal to 392px----------------------*/
     
     
     /*-------------------------Viewport less than or equal to 320px----------------------*/
@@ -678,7 +678,7 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 0.8rem; 
+    padding: 0 0.9rem; 
     font-size: 2rem;
 }
     
@@ -725,7 +725,7 @@ section{
     width: 90%;
     margin: 0 auto;
     padding: 50px 0;
-    z-index: 99;
+    z-index: 9;
     margin-top: 250%;
 }
     
@@ -741,4 +741,4 @@ section{
 }
     /*--------x------OurWork----x-----*/
     
-/*------------x------------Viewport less than or equal to 320px---------x------------*/
+/*-------------------------Viewport less than or equal to 320px----------------------*/
