@@ -202,7 +202,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("./images/home.jpg");
+    background-image: url("../images/home.jpg");
     background-size: inherit;
     background-repeat: no-repeat;
     background-position: center;
