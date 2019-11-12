@@ -379,8 +379,9 @@ section{
 
 .domain .domain-info{
     display: flex;
-    flex-wrap: wrap;
-    margin: 50px 0;
+    flex-wrap: wrap-reverse;
+    margin: 50px 200px;
+    text-align: center;
 }
 
 .domain .col{
