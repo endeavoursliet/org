@@ -269,22 +269,26 @@ ul {
   padding: 0;
 }
 .founders {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-.founders,
-.members {
-  margin-top: 40px;
+.founders {
   width: 80%;
   margin: 0 auto;
   color: #fff;
 }
 
-.m-cards {
-  margin-top: 70px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.members-area {
+  margin-top: 30px;
+}
+
+.members-area .lead {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 64px;
 }
 
 .m-card {
@@ -296,10 +300,19 @@ ul {
   text-align: center;
 }
 
-.m-card .image-circle img {
+.m-card .image-circle {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
+  background-image: url('./assets/img_before.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.m-card .image-circle:hover {
+  background-image: url('./assets/img_after.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .members {
@@ -314,6 +327,7 @@ ul {
   font-size: 24px;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 .designation {
@@ -326,6 +340,8 @@ ul {
 .m-card .social-links {
   margin: 5px;
 }
+
+
 
 .ln-social {
   margin: 0 3px;
@@ -349,4 +365,68 @@ footer span {
   color: tomato;
   margin-right: 3px;
   margin-left: 3px;
+}
+
+.members-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members-grid {
+  display: grid;
+  width: 85%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1125px) {
+  .members-grid {
+    
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  .members-grid {
+    
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 1fr 1fr ;
+    
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .members-grid {
+    
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 1fr ;
+    
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .members-grid {
+    
+      margin-right: 30px;
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 1fr ;
+    
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .members-grid {
+    
+      margin-right: 50px;
+      display: grid;
+      width: 85%;
+      grid-template-columns: 1fr 1fr ;
+    
+  }
 }
