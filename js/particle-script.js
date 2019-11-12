@@ -15,7 +15,7 @@ particlesJS("particles-js",{
     "shape": {
       "type": "star",
       "stroke": {
-        "width": 15,
+        "width": 5,
         "color": "#000000"
       },
       "polygon": {
@@ -61,7 +61,7 @@ particlesJS("particles-js",{
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
+      "bounce": true,
       "attract": {
         "enable": true,
         "rotateX": 600,
