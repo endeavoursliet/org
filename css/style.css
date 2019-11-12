@@ -202,8 +202,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("../images/442718.jpg");
-    background-size: cover;
+    background-image: url("./images/home.jpg");
+    background-size: inherit;
+    background-repeat: no-repeat;
     background-position: center;
     background-color: #344945e;
     background-attachment: fixed;
@@ -235,6 +236,11 @@ section{
 
 
 /*--------------------------About_Section------------------*/
+
+.about{
+    position: relative;
+    z-index: 99;
+}
 
 .section-title{
     text-align: center;
@@ -300,6 +306,11 @@ section{
 
 /*--------------------------Vision_Section------------------*/
 
+.vision{
+    position: relative;
+    z-index: 99;
+}
+
 .vision-title{
     text-align: center;
 }
@@ -358,11 +369,12 @@ section{
 /*--------------------------Domain_Section------------------*/
 
 .domain{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
-    z-index: 1;
+    position: relative;
+    z-index: 99;
 }
 
 .domain .domain-info{
@@ -395,9 +407,10 @@ section{
 
 /*-------------------------------OurWork---------------------*/
 .ourwork{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px 0;
+    position: relative;
     z-index: 99;
 }
 
@@ -422,7 +435,7 @@ section{
 /*-------------------------ContactUs_Section--------------------------*/
 
 .contact{
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     padding: 50px 0;
     z-index: 99;
@@ -576,8 +589,14 @@ section{
     width: 99%;
     height: 100%;
     z-index: 0;
-}
-    
+    }
+
+    .home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; 
+    }
+	
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
     }
