@@ -491,9 +491,9 @@ section{
 
 
 
-/*-------------------------Viewport less than or equal to 750px----------------------*/
+/*-------------------------Viewport less than or equal to 768px----------------------*/
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:768px){
     
     #particles-js{
     position: fixed;
@@ -501,6 +501,13 @@ section{
     height: 100%;
     z-index: 0;
 }
+    
+    .home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; 
+    }
+    
     
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
@@ -576,7 +583,7 @@ section{
     }
     /*--------x------OurWork----x-----*/
     
-/*------------x-----------Viewport less than or equal to 750px----------x-----------*/
+/*------------x-----------Viewport less than or equal to 768px----------x-----------*/
     
 
     
@@ -681,6 +688,12 @@ section{
     height: 100%;
     z-index: 0;
 }
+ 
+    .home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; 
+    }
     
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
