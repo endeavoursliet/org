@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h2, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,13 +50,13 @@ table {
 
 
 
-/*----------------------Added-by-Self----------------------*/
+/*----------------------Custom----------------------*/
 html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-/*-----------x----------Added-by-Self----------x------------*/
+/*-----------x----------Custom----------x------------*/
 
 /*----------------------Global-Classes----------------------*/
 a{
@@ -86,7 +81,6 @@ ul{
     height: 100%;
     z-index: 0;
 }
-
 /*-----------x----------Global-Classes----------x-----------*/
 
 /*-------------------------Navbar--------------------------*/
@@ -217,6 +211,7 @@ section{
     text-shadow: 0 15px 20px #000000b0;
     margin-bottom: 20px;
     visibility: hidden;
+    font-stretch:expanded;
 }
 
 .home h3{
@@ -375,6 +370,7 @@ section{
     text-align: center;
     position: relative;
     z-index: 99;
+    text-align: center;
 }
 
 .domain .domain-info{
@@ -418,8 +414,9 @@ section{
 .ourwork-info{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 50px 26px;
     z-index: 9;
+    width: 100%;
 }
 
 .ourwork-info .col{
@@ -774,4 +771,91 @@ section{
 }
     /*--------x------OurWork----x-----*/
     
-/*-------------------------Viewport less than or equal to 320px----------------------*/
+
+    
+    /*-------------------------Viewport more than or equal to 768px----------------------*/
+    
+    @media only screen and (min-width:768px){
+    
+    .home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+    }
+    
+    
+    .nav .nav-menu,.nav .nav-items{
+        flex-direction: column;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    
+    .domain .domain-info{
+    display: grid;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+    
+    .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
+    padding: 0 1.7rem; 
+    font-size: 2rem;
+    }
+    
+    /*--------AboutInfoParagraph------*/
+    .about-info p{
+    line-height: 28px;
+    font-size: 18px;
+    }
+    /*----x---AboutInfoParagraph---x--*/
+    
+    /*------------Domain--------------*/
+    
+    .domain{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    z-index: 1;
+    margin-top: -300px;
+}
+
+    .domain .domain-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+    .domain .col{
+    width: 600%;
+    margin: 25px 40px;
+    text-align: center;
+}
+
+    
+    /*------x-----Domain------x-------*/
+    
+    
+    /*---------------OurWork----------*/
+    .ourwork{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 9;
+    margin-top: 100%;
+}
+    
+    .ourwork-info{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .ourwork-info .col{
+    float: left;
+    width: 100%;
+    margin: 1%;
+    }
+    /*--------x------OurWork----x-----*/
+    
+/*------------x-----------Viewport more than or equal to 768px----------x-----------*/
