@@ -414,8 +414,8 @@ section{
 .ourwork-info{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 26px;
-    z-index: 9;
+    justify-content: center;
+    z-index: 99;
     width: 100%;
 }
 
@@ -427,6 +427,11 @@ section{
 
 .ourwork-info .col img{
     max-width: 100%;
+    transition: all 0.5s;
+}
+
+.ourwork-info .col img:hover{
+    transform: scale(1.1);    
 }
 /*--------------x----------------OurWork----------x----------*/
 
@@ -436,6 +441,7 @@ section{
     width: 75%;
     margin: 0 auto;
     padding: 50px 0;
+    position: relative;
     z-index: 99;
 }
 
@@ -664,7 +670,8 @@ section{
     
     .ourwork-info{
     display: flex;
-    margin: 55px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     }
     
@@ -763,7 +770,8 @@ section{
     
     .ourwork-info{
     display: flex;
-    margin: 55px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     }
     
@@ -851,6 +859,8 @@ section{
     
     .ourwork-info{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     }
     
