@@ -80,7 +80,7 @@ ul{
     position: fixed;
     width: 99%;
     height: 100%;
-    z-index: 0;
+    z-index: -1;
 }
 /*-----------x----------Global-Classes----------x-----------*/
 
@@ -90,10 +90,12 @@ ul{
     background: black;
     padding: 0 2rem;
     height: 0rem;
+    width: 93%;
     min-height: 10vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
-    z-index: 9;
+    position: fixed;
+    z-index: 1000;    
 }
 
 .nav .nav-menu{
@@ -107,12 +109,14 @@ ul{
     cursor: pointer;
     display: none;
     z-index: 9;
+    
 }
 
 .nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
+    z-index: 1000;
 }
 
 .nav .toggle-collapse .toggle-icons i{        /*---------hamburger_icon----------*/
@@ -135,7 +139,8 @@ ul{
 .nav .nav-items{
     display: flex;
     margin: 0;
-    z-index: 9;
+    z-index: 1000;
+    background-color: black;
 }
 
 .nav .nav-items .nav-link{
@@ -183,6 +188,7 @@ ul{
 
 
 /*-------------------------Home_Section--------------------*/
+
 section{
     padding: 60px 0;
     height: 100%;
@@ -200,8 +206,9 @@ section{
     z-index: 9;
     background-repeat: no-repeat;
     left: 32%;
-    top: 7%;
+    top: 16%;
 }
+
 /*------------x------------Home_Section--------x-----------*/
 
 
@@ -491,9 +498,17 @@ section{
     z-index: 1;
     }
     
+    .nav{
+        position: fixed;
+        z-index: 1000;
+        width: 85%;
+        padding: 0 6%;
+    }
+    
     
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
+        background-color: black;
     }
     
     .nav .toggle-collapse{
@@ -590,8 +605,18 @@ section{
     z-index: 1;
     }
 	
+    .nav{
+        position: fixed;
+        z-index: 100;
+        justify-content: space-between;
+        width: 80%; 
+        padding: 0 8%;
+    }
+    
+    
     .nav .nav-menu,.nav .nav-items{
         flex-direction: column;
+        background-color: black;
     }
     
     .nav .toggle-collapse{
@@ -772,7 +797,7 @@ section{
     @media only screen and (min-width:768px){
     
     .home{
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: right; 
     }
