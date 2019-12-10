@@ -183,7 +183,6 @@ ul{
 
 
 /*-------------------------Home_Section--------------------*/
-
 section{
     padding: 60px 0;
     height: 100%;
@@ -191,43 +190,18 @@ section{
 }
 
 .home{
-    color: aqua;
     padding: 0;
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    background-image: url("../images/home.jpg");
-    background-size: inherit;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #344945e;
-    background-attachment: fixed;
+    background-image: url("../images/a.png");
+    background-size: 35%;
+    background-attachment: scroll;
     z-index: 9;
+    background-repeat: no-repeat;
+    left: 32%;
+    top: 7%;
 }
-
-.home h1{
-    font-size: 65px;
-    text-transform: uppercase;
-    text-shadow: 0 15px 20px #000000b0;
-    margin-bottom: 20px;
-    visibility: hidden;
-    font-stretch:expanded;
-}
-
-.home h3{
-    background: #000;
-    font-size: 16px;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 10px 0 50px;
-    display: inline-block;
-    letter-spacing: 2px;
-    border-radius: 2px;
-    margin-bottom: 100px;
-    margin-top: -200px;
-}
-
 /*------------x------------Home_Section--------x-----------*/
 
 
@@ -508,9 +482,11 @@ section{
 }
     
     .home{
-    background-size: cover;
+    background-size: 70%;
     background-repeat: no-repeat;
-    background-position: left; 
+    left: 15%;
+    top: 22%;
+    z-index: 1;
     }
     
     
@@ -605,9 +581,11 @@ section{
     }
 
     .home{
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
-    background-position: left; 
+    left: 10%;
+    top: 23%;
+    z-index: 1;
     }
 	
     .nav .nav-menu,.nav .nav-items{
@@ -698,9 +676,11 @@ section{
 }
  
     .home{
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
-    background-position: left; 
+    left: 10%;
+    top: 24%;
+    z-index: 1;
     }
     
     .nav .nav-menu,.nav .nav-items{
