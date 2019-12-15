@@ -416,12 +416,13 @@ section{
 .ourwork-info .col img{
     max-width: 100%;
     transition: all 0.5s;
+    border-radius: 25px;
 }
 
 .ourwork-info .col img:hover{
     transform: scale(1.1);
     background-color: white;
-    box-shadow: 5px 5px 30px 15px crimson;
+    box-shadow: 0px 5px 30px 15px crimson;
 }
 /*--------------x----------------OurWork----------x----------*/
 
@@ -575,7 +576,6 @@ section{
     padding: 50px 0;
     z-index: 9;
     margin-top: 100%;
-    border-radius: 3px;
 }
     
     .ourwork-info{
