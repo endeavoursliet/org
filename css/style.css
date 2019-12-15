@@ -590,6 +590,14 @@ section{
     width: 100%;
     margin: 1%;
     }
+    
+    .ourwork-info .col img:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px 15px crimson;
+    margin-top: 10px;
+}
     /*--------x------OurWork----x-----*/
     
 /*------------x-----------Viewport less than or equal to 768px----------x-----------*/
@@ -698,6 +706,13 @@ section{
     width: 100%;
     margin: 1%;
 }
+    .ourwork-info .col img:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px 15px crimson;
+    margin-top: 10px;
+}
     /*--------x------OurWork----x-----*/
     
 /*-------------------------Viewport less than or equal to 392px----------------------*/
@@ -799,6 +814,13 @@ section{
     float: left;
     width: 100%;
     margin: 1%;
+}
+    .ourwork-info .col img:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px 15px crimson;
+    margin-top: 10px;
 }
     /*--------x------OurWork----x-----*/
     
