@@ -93,9 +93,10 @@ ul{
     width: 93%;
     min-height: 10vh;
     overflow: hidden;
-    transition: height 1s ease-in-out;
+    transition: height 0.4s ease;
     position: fixed;
-    z-index: 1000;    
+    z-index: 1000;  
+    transition: all 1s;
 }
 
 .nav .nav-menu{
@@ -106,7 +107,7 @@ ul{
     position: absolute;
     top: 0%;
     width: 90%;
-    cursor: pointer;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     display: none;
     z-index: 9;
     
@@ -150,6 +151,7 @@ ul{
     font-family: 'Abel';
     font-size: 1.1rem;
     z-index: 9;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
 }
 
 .nav .nav-items .nav-link:hover{
@@ -160,28 +162,32 @@ ul{
 .nav .nav-items .nav-link:hover a{
     color: white;
     z-index: 9;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
 }
 
 .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
     margin-top: -75px;
     display: block;
     z-index: 9;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
 }
 
 .nav .social{             /*-------Social-Icons--------*/
     padding: 1.4rem 0;
     margin-top: -6px;
     z-index: 9;
+    margin-right: -2%;
 }
 
 .nav .social i{
     padding: 0 .5rem; 
     font-size: 2rem;
     z-index: 9;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
 }
 
 .nav .social i:hover{
-    color: darkviolet;
+    color: crimson;
     z-index: 9;
 }
 /*--------------x----------Navbar------------x-------------*/
@@ -415,7 +421,7 @@ section{
 .ourwork-info .col img:hover{
     transform: scale(1.1);
     background-color: white;
-    box-shadow: 5px 5px 20px 5px #0ff;
+    box-shadow: 5px 5px 30px 15px crimson;
 }
 /*--------------x----------------OurWork----------x----------*/
 
@@ -459,18 +465,18 @@ section{
 .contact-info .submitButton{
     border: none;
     outline: none;
-    background-color: blue;
+    background-color: crimson;
     color: whitesmoke;
     height: 50px;
     font-weight: 600;
     font-size: 16px;
-    cursor: pointer;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     text-transform: uppercase;
     border-radius: 20px;
 }
 
 .contact-info .submitButton:hover{
-    background-color: darkslateblue;
+    background-color: mediumvioletred;
     color: black;
 }
 /*-------------x-----------ContactUs_Section------------x-------------*/
@@ -499,10 +505,12 @@ section{
     }
     
     .nav{
-        position: fixed;
+        position: relative;
         z-index: 1000;
         width: 85%;
         padding: 0 6%;
+        transition: height 0.3s ease;
+        scroll-behavior: smooth;
     }
     
     
@@ -567,6 +575,7 @@ section{
     padding: 50px 0;
     z-index: 9;
     margin-top: 100%;
+    border-radius: 3px;
 }
     
     .ourwork-info{
@@ -606,11 +615,13 @@ section{
     }
 	
     .nav{
-        position: fixed;
+        position: relative;
         z-index: 100;
         justify-content: space-between;
         width: 80%; 
         padding: 0 8%;
+        transition: height 0.3s ease;
+        scroll-behavior: smooth;
     }
     
     
