@@ -90,7 +90,7 @@ ul{
     background: black;
     padding: 0 2rem;
     height: 0rem;
-    width: 93%;
+    width: 94%;
     min-height: 10vh;
     overflow: hidden;
     transition: height 0.4s ease;
@@ -110,7 +110,6 @@ ul{
     cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     display: none;
     z-index: 9;
-    
 }
 
 .nav .toggle-collapse .toggle-icons{
@@ -122,7 +121,7 @@ ul{
 
 .nav .toggle-collapse .toggle-icons i{        /*---------hamburger_icon----------*/
     margin-top: -13px;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: white;
     z-index: 1;
 }
@@ -223,11 +222,14 @@ section{
 .about{
     position: relative;
     z-index: 99;
+    box-sizing: content-box;
+    height: auto;
 }
 
 .section-title{
     text-align: center;
     z-index: 9;
+    padding-bottom: 2%;
 }
 
 .section-title h2{
@@ -241,7 +243,7 @@ section{
 }
 
 .about-info{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 60px auto;
     text-align: center;
@@ -251,12 +253,13 @@ section{
 .about-info p{
     line-height: 28px;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .about-info .know-more{
     display: inline-block;
     padding: 15px 35px;
-    background-color: #00ccff;
+    background-color: crimson;
     border: 1px solid #00ccff;
     border-radius: 50px;
     color: #ffffff;
@@ -292,6 +295,8 @@ section{
 .vision{
     position: relative;
     z-index: 99;
+    box-sizing: content-box;
+    height: auto;
 }
 
 .vision-title{
@@ -308,7 +313,7 @@ section{
 }
 
 .vision-info{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 60px auto;
     text-align: center;
@@ -318,6 +323,8 @@ section{
 .vision-info p{
     line-height: 28px;
     font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .mission-title{
@@ -335,7 +342,7 @@ section{
 }
 
 .mission-info{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 60px auto;
     text-align: center;
@@ -345,6 +352,7 @@ section{
 .mission-info p{
     line-height: 28px;
     font-size: 18px;
+    padding-top: 30px;
 }
 
 /*--------------x-----------Vision_Section--------x---------*/
@@ -359,6 +367,8 @@ section{
     position: relative;
     z-index: 99;
     text-align: center;
+    box-sizing: content-box;
+    height: auto;
 }
 
 .domain .domain-info{
@@ -397,6 +407,8 @@ section{
     padding: 50px 0;
     position: relative;
     z-index: 99;
+    box-sizing: content-box;
+    height: auto;
 }
 
 .ourwork-info{
@@ -430,11 +442,13 @@ section{
 /*-------------------------ContactUs_Section--------------------------*/
 
 .contact{
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px 0;
     position: relative;
     z-index: 99;
+    box-sizing: content-box;
+    height: auto;
 }
 
 ::-webkit-input-placeholder {
@@ -506,89 +520,166 @@ section{
     z-index: 1;
     }
     
-    .nav{
+    .nav{                    /*---------Full_Nav------------*/
         position: relative;
         z-index: 1000;
-        width: 85%;
-        padding: 0 6%;
+        width: 100%;
+        padding: 0;
         transition: height 0.3s ease;
         scroll-behavior: smooth;
-    }
+        background-color: black;
+    } 
     
-    
-    .nav .nav-menu,.nav .nav-items{
+    .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
         flex-direction: column;
         background-color: black;
     }
     
-    .nav .toggle-collapse{
-        display: initial;
+    .nav-items{        /*---------UL_Class------------*/
+        flex-direction: column;
+        background-color: black;
+        height: auto;
+        transition: height 0.3s ease;
     }
     
-    .domain .domain-info{
-    display: grid;
-    flex-wrap: wrap;
-    margin: 50px 0;
+    .nav .collapse{
+        width: 100%;
+        height: auto;
+    }
+    
+    .nav-link{            /*-----Individual_Nav_Items----------*/
+    position: relative;
+    z-index: 9;
+    margin: 2px 20px;
+    background-color: firebrick;
+    border-radius: 40px;
+    border: 1px solid pink;
+    text-align: center;
+}
+    
+    .nav-items .nav-link a{
+    width: 100%;
+    font-weight: 500;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+        width: 100%;
+    }
+    
+    .nav .toggle-collapse .toggle-icons i{
+    display: block;
+    padding: 0 20px 0 0;
+    z-index: 1000;    
+}
+    
+    .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
+    display: flex;
+    margin-top: -75px;
+    z-index: 9;
+    justify-content: center;
+    width: 100%;
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1.7rem; 
+    padding: 0 2rem; 
     font-size: 2rem;
     }
+    
+    .nav .nav-menu .social{       /*-----Social_Icons------*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
     
     /*--------AboutInfoParagraph------*/
     .about-info p{
     line-height: 28px;
     font-size: 18px;
+    padding-bottom: 13%;
+    padding-top: 10%;
     }
     /*----x---AboutInfoParagraph---x--*/
+    
+    
+    /*----------------Mission_&_Vision-------*/
+    
+    .vision-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    }
+    
+    .mission-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-top: 10%;
+    }
+    /*--------x-------Mission_&_Vision---x---*/
     
     /*------------Domain--------------*/
     
     .domain{
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 0 auto; 
     text-align: center;
     z-index: 1;
-    margin-top: -300px;
+    box-sizing: content-box;
+    height: auto;
 }
 
     .domain .domain-info{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 25px 0;
 }
 
     .domain .col{
-    width: 600%;
-    margin: 25px 40px;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 25px 30px;
+    text-align: left;
 }
 
+    
+    .domain .col h3{
+    font-size: 28px;
+    margin: 5px 0 0 15px; 
+}
+    
+    .domain .col p{
+    padding-top: 10px;
+}
     
     /*------x-----Domain------x-------*/
     
     
     /*---------------OurWork----------*/
     .ourwork{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 0 auto;
     z-index: 9;
-    margin-top: 100%;
+    box-sizing: content-box;
+    height: auto;
 }
     
     .ourwork-info{
     display: flex;
-    margin: 60px -4px;
+    padding-top: 10%;
     flex-direction: column;
+    justify-content: center;
     }
     
     .ourwork-info .col{
-    float: left;
-    width: 100%;
-    margin: 1%;
+    padding: 10px 10px; 
+    width: 92%;
     }
     
     .ourwork-info .col img:hover{
@@ -598,6 +689,12 @@ section{
     box-shadow: 0px 5px 30px 15px crimson;
     margin: 10px 0px 10px;
 }
+    
+    form{
+    padding: 0 12%;
+    }
+    
+    
     /*--------x------OurWork----x-----*/
     
 /*------------x-----------Viewport less than or equal to 768px----------x-----------*/
