@@ -132,7 +132,7 @@ ul{
 }
 
 .collapse{        /*-------------increase_height_of_menu-----------*/
-    height: 48rem;
+    height: 50rem;
     z-index: 9;
 }
 
@@ -145,7 +145,6 @@ ul{
 
 .nav .nav-items .nav-link{
     padding: 1.6rem 1rem;
-    font-size: 1.1rem;
     position: relative;
     font-family: 'Abel';
     font-size: 1.1rem;
@@ -569,6 +568,8 @@ section{
     border-radius: 40px;
     border: 1px solid pink;
     text-align: center;
+    height: 0px;
+    line-height: 1px;
 }
     
     .nav-items .nav-link a{
@@ -596,7 +597,7 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 2rem; 
+    padding: 0 1.4rem; 
     font-size: 2rem;
     }
     
@@ -770,11 +771,13 @@ section{
     border-radius: 40px;
     border: 1px solid pink;
     text-align: center;
+    height: 0px;
+    line-height: 1px;
 }
     
     .nav-items .nav-link a{
     width: 100%;
-    font-weight: 500;
+    font-weight: 100;
     }
     
     .nav .toggle-collapse{
@@ -797,7 +800,7 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 2rem; 
+    padding: 0 1rem; 
     font-size: 2rem;
     }
     
@@ -853,7 +856,7 @@ section{
     flex-wrap: wrap;
     margin: 25px 0;
     justify-content: center;
-}
+    }
 
     .domain .col{
     display: flex;
@@ -899,6 +902,12 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px 10px; 
+    }
+   
+    .ourwork-info .col img{
+    max-width: 100%;
+    transition: all 0.5s;
+    border-radius: 30px 0px;
     }
     
     .ourwork-info .col img:hover{
@@ -971,6 +980,8 @@ section{
     border-radius: 40px;
     border: 1px solid pink;
     text-align: center;
+    height: 0px;
+    line-height: 1px;
 }
     
     .nav-items .nav-link a{
@@ -998,7 +1009,7 @@ section{
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 2rem; 
+    padding: 0 1rem; 
     font-size: 2rem;
     }
     
@@ -1115,92 +1126,3 @@ section{
     /*--------x------OurWork----x-----*/
     
 /*------------x-----------Viewport less than or equal to 320px----------x-----------*/
-    
-/*-------------------------Viewport more than or equal to 768px----------------------*/
-    
-    @media only screen and (min-width:768px){
-    
-    .home{
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: right; 
-    }
-    
-    
-    .nav .nav-menu,.nav .nav-items{
-        flex-direction: column;
-    }
-    
-    .nav .toggle-collapse{
-        display: initial;
-    }
-    
-    .domain .domain-info{
-    display: grid;
-    flex-wrap: wrap;
-    margin: 50px 0;
-}
-    
-    .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1.7rem; 
-    font-size: 2rem;
-    }
-    
-    /*--------AboutInfoParagraph------*/
-    .about-info p{
-    line-height: 28px;
-    font-size: 18px;
-    }
-    /*----x---AboutInfoParagraph---x--*/
-    
-    /*------------Domain--------------*/
-    
-    .domain{
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 0px;
-    text-align: center;
-    z-index: 1;
-    margin-top: -300px;
-}
-
-    .domain .domain-info{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50px 0;
-}
-
-    .domain .col{
-    width: 600%;
-    margin: 25px 40px;
-    text-align: center;
-}
-
-    
-    /*------x-----Domain------x-------*/
-    
-    
-    /*---------------OurWork----------*/
-    .ourwork{
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px 0;
-    z-index: 9;
-    margin-top: 100%;
-}
-    
-    .ourwork-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    }
-    
-    .ourwork-info .col{
-    float: left;
-    width: 100%;
-    margin: 1%;
-    }
-    /*--------x------OurWork----x-----*/
-    
-/*------------x-----------Viewport more than or equal to 768px----------x-----------*/
