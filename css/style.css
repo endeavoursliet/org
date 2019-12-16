@@ -515,7 +515,6 @@ section{
 
 
 
-
 /*-------------------------Viewport less than or equal to 768px----------------------*/
 
 @media only screen and (max-width:768px){
@@ -717,9 +716,8 @@ section{
 /*------------x-----------Viewport less than or equal to 768px----------x-----------*/
     
 
-    
 /*-------------------------Viewport less than or equal to 392px----------------------*/
-    
+
 @media only screen and (max-width:392px){
     
     #particles-js{
@@ -727,113 +725,200 @@ section{
     width: 99%;
     height: 100%;
     z-index: 0;
-    }
-
+}
+    
     .home{
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    left: 10%;
-    top: 23%;
+    left: 15%;
+    top: 22%;
     z-index: 1;
     }
-	
-    .nav{
+    
+    .nav{                    /*---------Full_Nav------------*/
         position: relative;
-        z-index: 100;
-        justify-content: space-between;
-        width: 80%; 
-        padding: 0 8%;
+        z-index: 1000;
+        width: 100%;
+        padding: 0;
         transition: height 0.3s ease;
         scroll-behavior: smooth;
-    }
+        background-color: black;
+    } 
     
-    
-    .nav .nav-menu,.nav .nav-items{
+    .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
         flex-direction: column;
         background-color: black;
     }
     
-    .nav .toggle-collapse{
-        display: initial;
+    .nav-items{        /*---------UL_Class------------*/
+        flex-direction: column;
+        background-color: black;
+        height: auto;
+        transition: height 0.3s ease;
     }
     
-    .domain .domain-info{
-    display: grid;
-    flex-wrap: wrap;
-    margin: 50px 0;
+    .nav .collapse{
+        width: 100%;
+        height: auto;
+    }
+    
+    .nav-link{            /*-----Individual_Nav_Items----------*/
+    position: relative;
+    z-index: 9;
+    margin: 2px 20px;
+    background-color: firebrick;
+    border-radius: 40px;
+    border: 1px solid pink;
+    text-align: center;
+}
+    
+    .nav-items .nav-link a{
+    width: 100%;
+    font-weight: 500;
+    }
+    
+    .nav .toggle-collapse{
+        display: initial;
+        width: 100%;
+    }
+    
+    .nav .toggle-collapse .toggle-icons i{
+    display: block;
+    padding: 0 20px 0 0;
+    z-index: 1000;    
+}
+    
+    .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
+    display: flex;
+    margin-top: -75px;
+    z-index: 9;
+    justify-content: center;
+    width: 100%;
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 1rem; 
+    padding: 0 2rem; 
     font-size: 2rem;
-}
+    }
+    
+    .nav .nav-menu .social{       /*-----Social_Icons------*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
     
     /*--------AboutInfoParagraph------*/
     .about-info p{
     line-height: 28px;
     font-size: 18px;
-}
+    padding-bottom: 13%;
+    padding-top: 10%;
+    }
     /*----x---AboutInfoParagraph---x--*/
     
+    
+    /*----------------Mission_&_Vision-------*/
+    
+    .vision-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    }
+    
+    .mission-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-top: 10%;
+    }
+    /*--------x-------Mission_&_Vision---x---*/
+    
     /*------------Domain--------------*/
+    
     .domain{
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 0 auto; 
     text-align: center;
     z-index: 1;
-    margin-top: -55px;
+    box-sizing: content-box;
+    height: auto;
 }
 
     .domain .domain-info{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 25px 0;
+    justify-content: center;
 }
 
     .domain .col{
-    width: 600%;
-    margin: 25px 40px;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+    
+    .domain .col h3{
+    font-size: 28px;
+    margin: 5px 0 0 15px; 
+}
+    
+    .domain .col p{
+    padding-top: 10px;
+}
+    
     /*------x-----Domain------x-------*/
     
     
     /*---------------OurWork----------*/
     .ourwork{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 0 auto;
+    position: relative;
     z-index: 9;
-    margin-top: 170%;
+    box-sizing: content-box;
+    height: auto;
 }
     
     .ourwork-info{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 10%;
     flex-direction: column;
+    justify-content: center;
     }
     
     .ourwork-info .col{
-    float: left;
-    width: 100%;
-    margin: 1%;
-}
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 10px; 
+    }
+    
     .ourwork-info .col img:hover{
     transform: scale(1.1);
     background-color: white;
-    border-radius: 50%;
     box-shadow: 0px 5px 30px 15px crimson;
-    margin: 10px 0px 10px;
-}
+    }
+    
+    form{
+    padding: 0 12%;
+    }
+    
+    
     /*--------x------OurWork----x-----*/
     
-/*-------------------------Viewport less than or equal to 392px----------------------*/
+/*------------x-----------Viewport less than or equal to 392px----------x-----------*/
     
     
-    /*-------------------------Viewport less than or equal to 320px----------------------*/
-    
+/*-------------------------Viewport less than or equal to 320px----------------------*/
+
 @media only screen and (max-width:320px){
     
     #particles-js{
@@ -842,105 +927,196 @@ section{
     height: 100%;
     z-index: 0;
 }
- 
+    
     .home{
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    left: 10%;
-    top: 24%;
+    left: 15%;
+    top: 22%;
     z-index: 1;
     }
     
-    .nav .nav-menu,.nav .nav-items{
+    .nav{                    /*---------Full_Nav------------*/
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+        padding: 0;
+        transition: height 0.3s ease;
+        scroll-behavior: smooth;
+        background-color: black;
+    } 
+    
+    .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
         flex-direction: column;
+        background-color: black;
+    }
+    
+    .nav-items{        /*---------UL_Class------------*/
+        flex-direction: column;
+        background-color: black;
+        height: auto;
+        transition: height 0.3s ease;
+    }
+    
+    .nav .collapse{
+        width: 100%;
+        height: auto;
+    }
+    
+    .nav-link{            /*-----Individual_Nav_Items----------*/
+    position: relative;
+    z-index: 9;
+    margin: 2px 20px;
+    background-color: firebrick;
+    border-radius: 40px;
+    border: 1px solid pink;
+    text-align: center;
+}
+    
+    .nav-items .nav-link a{
+    width: 100%;
+    font-weight: 500;
     }
     
     .nav .toggle-collapse{
         display: initial;
+        width: 100%;
     }
     
-    .domain .domain-info{
-    display: grid;
-    flex-wrap: wrap;
-    margin: 50px 0;
+    .nav .toggle-collapse .toggle-icons i{
+    display: block;
+    padding: 0 20px 0 0;
+    z-index: 1000;    
+}
+    
+    .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
+    display: flex;
+    margin-top: -75px;
+    z-index: 9;
+    justify-content: center;
+    width: 100%;
 }
     
     .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-    padding: 0 0.9rem; 
+    padding: 0 2rem; 
     font-size: 2rem;
-}
+    }
+    
+    .nav .nav-menu .social{       /*-----Social_Icons------*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
     
     /*--------AboutInfoParagraph------*/
     .about-info p{
     line-height: 28px;
     font-size: 18px;
-}
+    padding-bottom: 13%;
+    padding-top: 10%;
+    }
     /*----x---AboutInfoParagraph---x--*/
     
-    /*------------Domain--------------*/
-    .vision-title{
-    text-align: center;
-        margin-top: 40%;
+    
+    /*----------------Mission_&_Vision-------*/
+    
+    .vision-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-bottom: 15%;
+    padding-top: 10%;
     }
-    /*-----x------Domain------x-------*/
+    
+    .mission-info p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-top: 10%;
+    }
+    /*--------x-------Mission_&_Vision---x---*/
     
     /*------------Domain--------------*/
+    
     .domain{
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding: 0 auto; 
     text-align: center;
     z-index: 1;
-    margin-top: 95px;
+    box-sizing: content-box;
+    height: auto;
 }
 
     .domain .domain-info{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 25px 0;
+    justify-content: center;
 }
 
     .domain .col{
-    width: 600%;
-    margin: 25px 40px;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+    
+    .domain .col h3{
+    font-size: 28px;
+    margin: 5px 0 0 15px; 
+}
+    
+    .domain .col p{
+    padding-top: 10px;
+}
+    
     /*------x-----Domain------x-------*/
     
     
     /*---------------OurWork----------*/
     .ourwork{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 0 auto;
+    position: relative;
     z-index: 9;
-    margin-top: 250%;
+    box-sizing: content-box;
+    height: auto;
 }
     
     .ourwork-info{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 10%;
     flex-direction: column;
+    justify-content: center;
     }
     
     .ourwork-info .col{
-    float: left;
-    width: 100%;
-    margin: 1%;
-}
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 10px; 
+    }
+    
     .ourwork-info .col img:hover{
     transform: scale(1.1);
     background-color: white;
-    border-radius: 50%;
     box-shadow: 0px 5px 30px 15px crimson;
-    margin: 10px 0px 10px;
-}
+    }
+    
+    form{
+    padding: 0 12%;
+    }
+    
     /*--------x------OurWork----x-----*/
     
-
+/*------------x-----------Viewport less than or equal to 320px----------x-----------*/
     
-    /*-------------------------Viewport more than or equal to 768px----------------------*/
+/*-------------------------Viewport more than or equal to 768px----------------------*/
     
     @media only screen and (min-width:768px){
     
