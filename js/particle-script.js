@@ -3,7 +3,7 @@
 particlesJS("particles-js",{
   "particles": {
     "number": {
-      "value": 70,
+      "value": 90,
       "density": {
         "enable": true,
         "value_area": 800
@@ -15,8 +15,8 @@ particlesJS("particles-js",{
     "shape": {
       "type": "star",
       "stroke": {
-        "width": 5,
-        "color": "#000000"
+        "width": 4,
+        "color": "black"
       },
       "polygon": {
         "nb_sides": 6
@@ -51,7 +51,7 @@ particlesJS("particles-js",{
       "enable": true,
       "distance": 100,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.5,
       "width": 2
     },
     "move": {
@@ -61,7 +61,7 @@ particlesJS("particles-js",{
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
         "enable": true,
         "rotateX": 600,
@@ -77,8 +77,8 @@ particlesJS("particles-js",{
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
-        "mode": "push"
+        "enable": false,
+        "mode": "repulse"
       },
       "resize": true
     },
@@ -97,7 +97,7 @@ particlesJS("particles-js",{
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
