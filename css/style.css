@@ -521,8 +521,8 @@ section{
 /*-------------x-----------Footer_Section------------x-------------*/
 footer {
   background: rgb(24, 24, 24);
-  margin-top: 70px;
-  padding: 20px 40px;
+  padding: 30px 20px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   color: #fff;
