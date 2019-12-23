@@ -91,10 +91,10 @@ ul{
     padding: 0 2rem;
     height: 0rem;
     width: 94%;
+    position: fixed;
     min-height: 10vh;
     overflow: hidden;
     transition: height 0.4s ease;
-    position: fixed;
     z-index: 1000;  
     transition: all 1s;
 }
@@ -612,7 +612,7 @@ footer span {
     }
     
     .nav{                    /*---------Full_Nav------------*/
-        position: relative;
+        position: fixed;
         z-index: 1000;
         width: 100%;
         padding: 0;
@@ -815,7 +815,7 @@ footer span {
     }
     
     .nav{                    /*---------Full_Nav------------*/
-        position: relative;
+        position: fixed;
         z-index: 1000;
         width: 100%;
         padding: 0;
@@ -1009,7 +1009,7 @@ footer span {
     }
     
     .nav{                    /*---------Full_Nav------------*/
-        position: relative;
+        position: fixed;
         z-index: 1000;
         width: 100%;
         padding: 0;
