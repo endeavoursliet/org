@@ -131,10 +131,7 @@ ul{
     z-index: 9;
 }
 
-.collapse{        /*-------------increase_height_of_menu-----------*/
-    height: 50rem;
-    z-index: 9;
-}
+
 
 .nav .nav-items{
     display: flex;
@@ -595,6 +592,11 @@ footer span {
 /*-------------------------Viewport less than or equal to 768px----------------------*/
 
 @media only screen and (max-width:768px){
+
+    .collapse{        /*-------------increase_height_of_menu-----------*/
+        height: 50rem;
+        z-index: 9;
+    }
     
     #particles-js{
     position: fixed;
