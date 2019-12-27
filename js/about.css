@@ -397,12 +397,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/shanur.png');
+  background-image: url('../images/Team/shanur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle8:hover {
-  background-image: url('../images/Team/shanur.png');
+  background-image: url('../images/Team/shanur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
