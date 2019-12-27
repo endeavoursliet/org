@@ -301,20 +301,854 @@ ul {
   text-align: center;
 }
 
-.m-card .image-circle {
+/*------------------Image_Section--------------------*/
+.m-card .image-circle1 {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('./assets/img_before.jpg');
+  background-image: url('../images/Team/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle1:hover {
+  background-image: url('../images/Team/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle2 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle2:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle3 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle3:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle4 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle4:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle5 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle5:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle6 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle6:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle7 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle7:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle8 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/shanur.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle8:hover {
+  background-image: url('../images/Team/shanur.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle9 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Pranshu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle9:hover {
+  background-image: url('../images/Team/Pranshu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle10 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle10:hover {
+  background-image: url('../images/Team/11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle11 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Kavita%20Shekhawat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle11:hover {
+  background-image: url('../images/Team/Kavita%20Shekhawat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle12 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/30.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle12:hover {
+  background-image: url('../images/Team/30.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle13 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle13:hover {
+  background-image: url('../images/Team/10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle14 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle14:hover {
+  background-image: url('../images/Team/');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle15 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/20.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle15:hover {
+  background-image: url('../images/Team/20.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle16 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle16:hover {
+  background-image: url('../images/Team/12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle17 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/21.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle17:hover {
+  background-image: url('../images/Team/21.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle18 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle18:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle19 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle19:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle20 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle20:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle21 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle21:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle22 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle22:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle23 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle23:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle24 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle24:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle25 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle25:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle26 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle26:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle27 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle27:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle28 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle28:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle29 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle29:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle30 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle30:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle31 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle31:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle32 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle32:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle33 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle33:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle34 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle34:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle35 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle35:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle36 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle36:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle37 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle37:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle38 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle38:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle39 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle39:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle40 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle40:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle41 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle41:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle42 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle42:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle43 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle43:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle44 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle44:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle45 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle45:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle46 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle46:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle47 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle47:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle48 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle48:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle49 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle49:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle50 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle50:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle51 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle51:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle52 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle52:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle53 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle53:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle54 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle54:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle55 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle55:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle56 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle56:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle57 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle57:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle58 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle58:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle59 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle59:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle60 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle60:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle61 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle61:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle62 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle62:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle63 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle63:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle64 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle64:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle65 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle65:hover {
+  background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.m-card .image-circle:hover {
-  background-image: url('./assets/img_after.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/*----------x-------Image_Section---------x----------*/
 
 .members {
   margin-top: 60px;
@@ -355,9 +1189,9 @@ ul {
 
 footer {
   background: rgb(24, 24, 24);
-  margin-top: 70px;
-  padding: 20px 40px;
+  box-sizing: content-box;
   display: flex;
+  padding: 0px 20px;
   justify-content: space-between;
   color: #fff;
 }
