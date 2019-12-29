@@ -306,12 +306,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/1.jpg');
+  background-image: url('../images/Team/raushan1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle1:hover {
-  background-image: url('../images/Team/1.jpg');
+  background-image: url('../images/Team/raushan1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -319,12 +319,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/gunjan1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle2:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/gunjan1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -371,12 +371,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/shivani1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle6:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/shivani1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -475,12 +475,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/');
+  background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle14:hover {
-  background-image: url('../images/Team/');
+  background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -649,6 +649,19 @@ ul {
   background-size: cover;
 }
 .m-card .image-circle27:hover {
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle27_1 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100px;
+  background-image: url('../images/Team/Yasho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.m-card .image-circle27_1:hover {
   background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -874,19 +887,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.m-card .image-circle44 {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle44:hover {
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .m-card .image-circle45 {
   height: 7rem;
   width: 7rem;
@@ -923,45 +923,6 @@ ul {
 }
 .m-card .image-circle47:hover {
   background-image: url('../images/Team/2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle48 {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle48:hover {
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle49 {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle49:hover {
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle50 {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle50:hover {
-  background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
