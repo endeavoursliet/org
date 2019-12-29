@@ -27,8 +27,8 @@
     html,body{
         height: 100%;
         line-height: 1;
-        color: #ffffff;
-        background-color: black;
+        color: white;
+        background-color: #880E4F;
         font-family: 'PT Sans Narrow', sans-serif;
         cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     }
