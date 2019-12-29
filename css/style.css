@@ -150,7 +150,7 @@
     }
 
     .nav .nav-items .nav-link:hover{
-        background-color: darkorange;
+        background-color: #BD0627;
         z-index: 9;
     }
 
@@ -183,7 +183,7 @@
     }
 
     .nav .social i:hover{
-        color: crimson;
+        color: #BD0627;
         z-index: 9;
         transform: scale(1.3);    
     }
@@ -228,13 +228,14 @@
         text-align: center;
         z-index: 9;
         padding-bottom: 2%;
+        color: #BD0627;
     }
 
     .section-title h2{
         display: inline-block;
         font-size: 28px;
         border-bottom: 1px solid;
-        border-color: #00ccff;
+        border-color: white;
         text-transform: uppercase;
         padding: 0 0 10px;
         z-index: 9;
@@ -310,13 +311,14 @@
 
     .vision-title{
         text-align: center;
+        color: #BD0627;
     }
 
     .vision-title h2{
         display: inline-block;
         font-size: 28px;
         border-bottom: 1px solid;
-        border-color: #00ccff;
+        border-color: white;
         text-transform: uppercase;
         padding: 0 0 10px;
     }
@@ -339,13 +341,14 @@
     .mission-title{
         margin-top: 25px;
         text-align: center;
+        color: #BD0627;
     }
 
     .mission-title h2{
         display: inline-block;
         font-size: 28px;
         border-bottom: 1px solid;
-        border-color: #00ccff;
+        border-color: white;
         text-transform: uppercase;
         padding: 0 0 10px;
     }
@@ -442,7 +445,7 @@
         flex-wrap: wrap;
         height: 300px;
         width: 300px;
-        background: #33030d;
+        background: #BD0627;
         margin: 3% 3%;
         position: relative;
         border-radius: 10%;
@@ -759,7 +762,7 @@
         height: auto;
     }
     ::-webkit-input-placeholder {
-      color: red;
+      color: #BD0627;
     }
     .contact-info{
         display: flex;
@@ -785,8 +788,8 @@
     .contact-info .submitButton{
         border: none;
         outline: none;
-        background-color: crimson;
-        color: whitesmoke;
+        background-color: #BD0627;
+        color: white;
         height: 50px;
         font-weight: 600;
         font-size: 16px;
