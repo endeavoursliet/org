@@ -131,8 +131,6 @@
         z-index: 9;
     }
 
-
-
     .nav .nav-items{
         display: flex;
         margin: 0;
@@ -878,7 +876,7 @@
         position: relative;
         z-index: 9;
         margin: 2px 20px;
-        background-color: #33030d;
+        background-color: #BD0627;
         border-radius: 40px;
         border: 1px solid pink;
         text-align: center;
@@ -889,6 +887,7 @@
         .nav-items .nav-link a{
         width: 100%;
         font-weight: 500;
+        display: block;
         }
 
         .nav .toggle-collapse{
@@ -1006,7 +1005,7 @@
         flex-wrap: wrap;
         height: 350px;
         width: 350px;
-        background: #33030d;
+        background-color: #BD0627;
         margin: 5% 5%;
         position: relative;
         border-radius: 10%;
@@ -1081,7 +1080,7 @@
         position: relative;
         z-index: 9;
         margin: 2px 20px;
-        background-color: #33030d;
+        background-color: #BD0627;
         border-radius: 40px;
         border: 1px solid pink;
         text-align: center;
@@ -1092,6 +1091,7 @@
         .nav-items .nav-link a{
         width: 100%;
         font-weight: 100;
+        display: block;
         }
 
         .nav .toggle-collapse{
@@ -1209,7 +1209,7 @@
         flex-wrap: wrap;
         height: 350px;
         width: 350px;
-        background: #33030d;
+        background-color: #BD0627;
         margin: 5% 5%;
         position: relative;
         border-radius: 10%;
@@ -1275,7 +1275,7 @@
         position: relative;
         z-index: 9;
         margin: 2px 20px;
-        background-color: #33030d;
+        background-color: #BD0627;
         border-radius: 40px;
         border: 1px solid pink;
         text-align: center;
@@ -1286,6 +1286,7 @@
         .nav-items .nav-link a{
         width: 100%;
         font-weight: 500;
+        display: block;
         }
 
         .nav .toggle-collapse{
