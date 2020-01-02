@@ -88,9 +88,9 @@
 
     .nav{
         background: black;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
         height: 0rem;
-        width: 94%;
+        width: 95%;
         position: fixed;
         min-height: 10vh;
         overflow: hidden;
@@ -162,10 +162,17 @@
     }
 
     .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
-        margin-top: -75px;
+        margin-top: -5px;
         display: block;
         z-index: 9;
         cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+
+    .nav .nav-brand img{
+    display: flex;
+    justify-content: flex-start;
+    width: 240px;
+    height: 80px;   
     }
 
     .nav .social{             /*-------Social-Icons--------*/
@@ -909,6 +916,8 @@
             transition: height 0.3s ease;
             scroll-behavior: smooth;
             background-color: black;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
@@ -921,6 +930,8 @@
             background-color: black;
             height: auto;
             transition: height 0.3s ease;
+            padding-top: 5%;
+            padding-bottom: 8%;
         }
 
         .nav .collapse{
@@ -958,7 +969,7 @@
 
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
-        margin-top: -75px;
+        margin-top: -5px;
         z-index: 9;
         justify-content: center;
         width: 100%;
@@ -1128,6 +1139,8 @@
             transition: height 0.3s ease;
             scroll-behavior: smooth;
             background-color: black;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
@@ -1140,6 +1153,8 @@
             background-color: black;
             height: auto;
             transition: height 0.3s ease;
+            padding-top: 5%;
+            padding-bottom: 1%;
         }
 
         .nav .collapse{
@@ -1168,20 +1183,30 @@
             display: initial;
             width: 100%;
         }
+        
+        .nav .toggle-collapse .toggle-icons{
+            padding: 20px;
+        }
 
         .nav .toggle-collapse .toggle-icons i{
         display: block;
-        padding: 0 20px 0 0;
-        z-index: 1000;    
+        padding: 3px 0 0 0;
+        z-index: 1000;
+        font-size: 32px;
     }
 
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
-        margin-top: -75px;
+        margin-top: -5px;
         z-index: 9;
         justify-content: center;
         width: 100%;
     }
+        
+        .nav .nav-brand img{
+            height: 70px;
+            width: 60%;
+        }
 
         .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
         padding: 0 1rem; 
@@ -1342,6 +1367,7 @@
             background-color: black;
             height: auto;
             transition: height 0.3s ease;
+            padding-top: 1%;
         }
 
         .nav .collapse{
@@ -1354,7 +1380,7 @@
         z-index: 9;
         margin: 2px 40px;
         background-color: #BD0627;
-        border-radius: 40px;
+        border-radius: 25px;
         text-align: center;
         height: 0px;
         line-height: 1px;
@@ -1373,21 +1399,26 @@
 
         .nav .toggle-collapse .toggle-icons i{
         display: block;
-        padding: 0 20px 0 0;
-        z-index: 1000;    
+        padding-top: 4px;
+        z-index: 1000;
+        font-size: 30px;
     }
 
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
-        margin-top: -75px;
+        margin-top: -5px;
         z-index: 9;
         justify-content: center;
         width: 100%;
     }
+        .nav .nav-brand img{
+            width: 50%;
+            height: 65px;
+        }
 
         .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
-        padding: 0 1rem; 
-        font-size: 2rem;
+        padding: 0 0.7rem; 
+        font-size: 1.5rem;
         }
 
         .nav .nav-menu .social{       /*-----Social_Icons------*/
@@ -1396,8 +1427,8 @@
             flex-direction: row;
             justify-content: center;
             width: 100%;
+            padding: 5%;
         }
-
 
         /*--------AboutInfoParagraph------*/
         .about-info p{
