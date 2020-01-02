@@ -3,7 +3,7 @@ body {
   margin: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: #000;
+  background-color: #080213;
   font-family: "PT Sans Narrow", sans-serif;
 }
 
@@ -29,6 +29,8 @@ ul {
 /*-------------------------Navbar--------------------------*/
 
 .nav {
+  display: flex;
+  justify-content: center;
   background: black;
   padding: 0 2rem;
   height: 0rem;
@@ -38,97 +40,10 @@ ul {
   z-index: 9;
 }
 
-.nav .nav-menu {
-  justify-content: space-between;
-}
-
-.nav .toggle-collapse {
-  position: absolute;
-  top: 0%;
-  width: 90%;
-  cursor: pointer;
-  display: none;
-  z-index: 9;
-}
-
-.nav .toggle-collapse .toggle-icons {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.7rem 0;
-}
-
-.nav .toggle-collapse .toggle-icons i {
-  /*---------hamburger_icon----------*/
-  margin-top: -13px;
-  font-size: 1.8rem;
-  color: white;
-  z-index: 1;
-}
-
-.nav .toggle-collapse .toggle-icons i:hover {
-  color: crimson;
-  z-index: 9;
-}
-
-.collapse {
-  /*-------------increase_height_of_menu-----------*/
-  height: 48rem;
-  z-index: 9;
-}
-
-.nav .nav-items {
-  display: flex;
-  margin: 0;
-  z-index: 9;
-}
-
-.nav .nav-items .nav-link {
-  padding: 1.6rem 1rem;
-  font-size: 1.1rem;
-  position: relative;
-  font-family: "Abel";
-  font-size: 1.1rem;
-  z-index: 9;
-}
-
-.nav .nav-items .nav-link:hover {
-  background-color: darkorange;
-  z-index: 9;
-}
-
-.active {
-  background-color: darkorange;
-  z-index: 9;
-  color: #fff;
-}
-
-.nav .nav-items .nav-link:hover a {
-  color: white;
-  z-index: 9;
-}
-
 .nav .nav-brand a {
   /*-------Endeavour-Icon--------*/
   margin-top: -75px;
   display: block;
-  z-index: 9;
-}
-
-.nav .social {
-  /*-------Social-Icons--------*/
-  padding: 1.4rem 0;
-  margin-top: -6px;
-  z-index: 9;
-}
-
-.nav .social i {
-  padding: 0 0.5rem;
-  font-size: 2rem;
-  z-index: 9;
-}
-
-.nav .social i:hover {
-  color: white;
   z-index: 9;
 }
 /*--------------x----------Navbar------------x-------------*/
@@ -332,12 +247,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle3:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -345,12 +260,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle4:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -384,12 +299,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle7:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -475,12 +390,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle14:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -553,12 +468,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/harsh.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle20:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/harsh.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -579,12 +494,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle22:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -605,12 +520,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle24:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -618,12 +533,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle25:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -644,12 +559,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle27:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -657,12 +572,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle27_1:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -670,12 +585,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle28:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -683,12 +598,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/bhanu1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle29:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/bhanu1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -696,12 +611,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/at.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle30:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/at.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -709,12 +624,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle31:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -748,12 +663,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle34:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -761,12 +676,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/av.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle35:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/av.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -800,12 +715,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle38:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -813,12 +728,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/shiv1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle39:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/shiv1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -904,12 +819,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/satvik.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle46:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/satvik.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -943,12 +858,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle52:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -956,12 +871,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle53:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -995,12 +910,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle56:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1008,12 +923,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/krish.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle57:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/krish.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1021,12 +936,12 @@ ul {
   height: 7rem;
   width: 7rem;
   border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .m-card .image-circle58:hover {
-  background-image: url('../images/Team/Yasho.jpg');
+  background-image: url('../images/Team/sample1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1066,19 +981,6 @@ ul {
 }
 .m-card .image-circle61:hover {
   background-image: url('../images/Team/5.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle62 {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 100px;
-  background-image: url('../images/Team/Yasho.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.m-card .image-circle62:hover {
-  background-image: url('../images/Team/Yasho.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
