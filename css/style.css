@@ -430,7 +430,7 @@
     }
 
     .domain .col img{
-        max-width: 48px;
+        max-width: 80px;
     }
 
     .domain .col h3{
@@ -639,7 +639,7 @@
     .card span3{
         height: 100%;
         left: 0;
-        background-image: url('../images/multi1.jpg');
+        background-image: url('../images/Team/rover.jpg');
         position: absolute;
         transition: 1s;
         background-size: cover;
@@ -731,7 +731,7 @@
     .card span5{
         height: 100%;
         left: 0;
-        background-image: url('../images/hari1.jpg');
+        background-image: url('../images/Team/robowars4.jpg');
         position: absolute;
         transition: 1s;
         background-size: cover;
@@ -771,6 +771,328 @@
         transition-delay: 0.3s;
     }
     .card:hover span5:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span6{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/ayn1.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span6:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span6:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span6:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span6:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span6{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span6:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span6:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span6:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span6:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span7{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/apm.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span7:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span7:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span7:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span7:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span7{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span7:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span7:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span7:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span7:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span8{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/ag.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span8:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span8:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span8:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span8:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span8{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span8:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span8:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span8:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span8:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span9{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/gg1.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span9:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span9:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span9:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span9:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span9{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span9:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span9:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span9:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span9:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span10{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/wheel.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span10:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span10:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span10:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span10:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span10{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span10:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span10:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span10:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span10:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span11{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/ecpcb1.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span11:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span11:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span11:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span11:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span11{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span11:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span11:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span11:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span11:nth-child(4){
+        transition-delay: 0s;
+    }
+
+    .card span12{
+        height: 100%;
+        left: 0;
+        background-image: url('../images/Team/ocr.jpg');
+        position: absolute;
+        transition: 1s;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card span12:nth-child(1){
+        z-index: 10;
+        width: 25%;
+        transition-delay: 0s;
+    }
+    .card span12:nth-child(2){
+        z-index: 9;
+        width: 50%;
+        transition-delay: 0.3s;
+    }
+    .card span12:nth-child(3){
+        z-index: 8;
+        width: 75%;
+        transition-delay: 0.6s;
+    }
+    .card span12:nth-child(4){
+        z-index: 7;
+        width: 100%;
+        transition-delay: 0.8s;
+    }
+    .card:hover span12{
+        transform: translateY(-100%);
+        transition: 1s;
+    }
+    .card:hover span12:nth-child(1){
+        transition-delay: 0.8s;
+    }
+    .card:hover span12:nth-child(2){
+        transition-delay: 0.6s;
+    }
+    .card:hover span12:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .card:hover span12:nth-child(4){
         transition-delay: 0s;
     }
     /*--------------x----------------OurWork----------x----------*/
@@ -1045,7 +1367,10 @@
         justify-content: center;
         padding: 0 10%;
     }
-
+        
+        .domain .col img{
+        padding: 0 100%;
+        }
 
         .domain .col h3{
         font-size: 28px;
@@ -1074,8 +1399,8 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        height: 270px;
-        width: 270px;
+        height: 290px;
+        width: 290px;
         background-attachment: transparent;
         margin: 5% 5%;
         position: relative;
