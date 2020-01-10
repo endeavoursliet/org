@@ -1467,19 +1467,24 @@
         font-size: 18px;
         padding-bottom: 13%;
         padding-top: 10%;
+        text-align: justify;
         }
         /*----x---AboutInfoParagraph---x--*/
 
 
         /*----------------Mission_&_Vision-------*/
-
+        .vision-info{
+            text-align: justify;
+        }
         .vision-info p{
         line-height: 28px;
         font-size: 18px;
         padding-bottom: 15%;
         padding-top: 10%;
         }
-
+        .mission-info{
+            text-align: justify;
+        }
         .mission-info p{
         line-height: 28px;
         font-size: 18px;
@@ -1525,7 +1530,7 @@
 
         .domain .col p{
         padding-top: 10px;
-    }
+        }
 
         /*------x-----Domain------x-------*/
 
@@ -1566,6 +1571,7 @@
         .content p{
             padding-top: 10px;
             font-size: 17px;
+            text-align: justify;
         }
 
         form{
@@ -1579,6 +1585,12 @@
         width: 60%;
         }
         /*--------x------Sponsors----x-----*/
+        
+        /*--------x------Contact----x-----*/
+        .contact{
+            
+        }
+        /*--------x------Contact----x-----*/
         
         
         /*--------x------Contact----x-----
