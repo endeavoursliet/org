@@ -29,7 +29,6 @@
         line-height: 1;
         color: white;
         background-color: #080213;
-        font-family: 'PT Sans Narrow', sans-serif;
         cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     }
     ol, ul {
@@ -56,6 +55,7 @@
         margin: 0%;
         box-sizing: border-box;
         overflow-x: hidden;
+        font-family: 'Abel', 'sans-serif';
     }
     /*-----------x----------Custom----------x------------*/
 
@@ -87,7 +87,6 @@
     /*-------------------------Navbar--------------------------*/
 
     .nav{
-        background: black;
         padding: 0 1.5rem;
         height: 0rem;
         width: 95%;
@@ -97,6 +96,10 @@
         transition: height 0.4s ease;
         z-index: 1000;  
         transition: all 1s;
+        background-color: #070110;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        filter: drop-shadow(0 30px 20px black);
     }
 
     .nav .nav-menu{
@@ -135,7 +138,7 @@
         display: flex;
         margin: 0;
         z-index: 1000;
-        background-color: black;
+        background-color: #070110;
     }
 
     .nav .nav-items .nav-link{
@@ -153,6 +156,7 @@
     }
     .nav .nav-items .nav-link a{
         display: block;
+        color: #EA65B2;
     }
 
     .nav .nav-items .nav-link:hover a{
@@ -213,7 +217,6 @@
         justify-content: center;
         align-items: center;
         z-index: 9;
-        
         width: 100%;
         height: 100%;
     }
@@ -410,7 +413,7 @@
     .domain .domain-info{
         display: flex;
         flex-wrap: wrap;
-        margin: 50px auto;
+        margin: 0px auto;
         justify-content: center;
         text-align: center;
     }
@@ -475,6 +478,7 @@
         z-index: 1;
         overflow: hidden;
         transition: 3s;
+        filter: drop-shadow(-30px 30px 10px black);
     }
     .card span{
         height: 100%;
@@ -1137,74 +1141,185 @@
     /*--------------x----------------OurWork----------x----------*/
 
     /*-------------------------ContactUs_Section--------------------------*/
-
-    .contact{
+    .contact {
         width: 100%;
-        margin: 0 auto;
-        padding: 50px 0;
-        position: relative;
-        z-index: 99;
-        box-sizing: content-box;
-        height: auto;
-    }
-    ::-webkit-input-placeholder {
-      color: #BD0627;
-    }
-    .contact-info{
+        height: 100vh;
+        background-color: transparent;
+        overflow: hidden;
         display: flex;
         justify-content: center;
-        margin: 50px 0;
+        align-items: center;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        position: relative;
+        box-sizing: content-box;
+        z-index: 10;
     }
-    .contact-info .textField{
+    .container{
+        display: flex;
+        justify-content: center;
+        min-width: 900px;
+        min-height: 500px;
+        border-radius: 20px;
+        position: relative;
+        transition: 1.5s ease-in-out;
+        transform-style: preserve-3d;
+        padding: 0;
+        margin: 0;
+    }
+    .side{
+        position: absolute;
+        text-align: center;
         width: 100%;
-        height: 20%;
-        border: none;
-        border-bottom: 1px solid #00ccff;
-        box-sizing: border-box;
-        background-color: transparent;
-        padding: 15px 15px;
-        margin-bottom: 15px;
-        font-family: "Abel";
-        color: #fff;
-        font-size: 16px;
-    }
-    .contact-info .messageField{
-        height: 150px;
-    }
-    .contact-info .submitButton{
-        border: none;
-        outline: none;
-        background-color: #BD0627;
+        height: 100%;
+        padding: 5px 40px;
         color: white;
-        height: 50px;
-        font-weight: 600;
-        font-size: 16px;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-        text-transform: uppercase;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
         border-radius: 20px;
     }
-    .contact-info .submitButton:hover{
-        background-color: mediumvioletred;
-        color: black;
+    .content1{
+        transform: translateZ(70px) scale(0.8);
+        line-height: 1.5em;
+        padding: 7% 0 0 0;
     }
+    .content1 h1{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Abel', 'sans-serif';
+        margin: auto;
+    }
+    .content1 h1:before{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 3px;
+        background-color: white;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .info-contact{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        z-index: 99;
+        font-family: 'Abel','sans-serif';
+    }
+    .ul1 li{
+        padding: 15px 0;
+    }
+    .ul2 li{
+        text-align: justify;
+        padding: 16px 0 16px 290px;
+    }
+    .front{
+        z-index: 50;
+        background-image: url('../images/cc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    .back{
+        background-color: #333;
+        transform: rotateY(180deg);
+        z-index: 10;
+        padding-top: 10px;
+        background-image: url('../images/cc1.jpg');
+        background-size: cover;
+    }
+    .container:hover{
+        transform: rotateY(180deg);
+    }
+    .back h1{
+        margin: 0;
+    }
+    .content2{
+        transform: translateZ(70px) scale(0.8);
+        line-height: 1.5em;
+        padding: 2% 0 0 0;
+    }
+    .content2 h1{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Abel', 'sans-serif';
+        margin: auto;
+    }
+    .content2 h1:before{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 3px;
+        background-color: white;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    form label, form input{
+        display: block;
+        text-align: left;
+        font-size: 23px;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+    form input, form textarea{
+        background: transparent;
+        border: 0;
+        border-bottom: 2px solid white;
+        padding: 1px;
+        width: 100%;
+        font-size: 17px;
+        color: white;
+        outline: none;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+
+    form textarea{
+        position: relative;
+        height: 13vh; 
+    }
+    form label{
+        margin: 10px 0;
+    }
+    form input[type="submit"]{
+        display: block;
+        width: auto;
+        margin: 10px auto;
+        padding: 5px 10px;
+        border: 3px solid white;
+        border-radius: 4px;
+        color: white;
+        transition: all 0.5s ease;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+    form input[type="submit"]:hover{
+        background-color: yellow;
+        color: black;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+
     /*-------------x-----------ContactUs_Section------------x-------------*/
 
 
     /*-------------x-----------Footer_Section------------x-------------*/
-    footer {
+     footer {
       background: rgb(24, 24, 24);
       padding: 30px 20px;
       box-sizing: border-box;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       color: #fff;
       position: relative;
       z-index: 100;
     }
-    footer span {
-      color: tomato;
-      margin-right: 3px;
-      margin-left: 3px;
+     footer span {
+          color: tomato;
+          margin-right: 3px;
+          margin-left: 3px;
     }
     /*-------------x-----------Footer_Section------------x-------------*/
 
@@ -1233,6 +1348,33 @@
         .home .home-info .col2{
             width: 70%;
         }
+        
+        .home .home-info .col2 img{
+        animation: glow 5s linear infinite alternate;
+        }
+        @keyframes glow{
+        100%{
+            filter: drop-shadow(0px 0px -25px red);
+        }
+        88%{
+            filter: drop-shadow(0px 0px 15px red);
+        }
+        75%{
+            filter: drop-shadow(0px 0px 20px deeppink);
+        }
+        50%{
+            filter: drop-shadow(0px 0px 30px blue);
+        }
+        25%{
+            filter: drop-shadow(0px 0px 20px deeppink);
+        }
+        13%{
+            filter: drop-shadow(0px 0px 15px red);
+        }
+        0%{
+            filter: drop-shadow(0px 0px -25px red);
+        }
+    }
 
         .nav{                    /*---------Full_Nav------------*/
             position: fixed;
@@ -1241,19 +1383,19 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: black;
+            background-color: #070110;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
+            filter: drop-shadow(0 15px 15px black);
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: black;
+            background-color: #070110;
         }
 
         .nav-items{        /*---------UL_Class------------*/
             flex-direction: column;
-            background-color: black;
             height: auto;
             transition: height 0.3s ease;
             padding-top: 5%;
@@ -1280,11 +1422,13 @@
         width: 100%;
         font-weight: 500;
         display: block;
+        color: white;
         }
 
         .nav .toggle-collapse{
             display: initial;
             width: 100%;
+            background-color: #070110;
         }
 
         .nav .toggle-collapse .toggle-icons i{
@@ -1296,10 +1440,12 @@
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
         margin-top: -5px;
-        z-index: 9;
         justify-content: center;
-        width: 100%;
-    }
+        position: relative;
+        width: 20%;
+        left: 42%;
+        z-index: 500;
+        }
 
         .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
         padding: 0 1.4rem; 
@@ -1407,6 +1553,7 @@
         border-radius: 10%;
         z-index: 1;
         overflow: hidden;
+        filter: drop-shadow(-20px 25px 10px black);
         }
         .card:hover{
         filter: drop-shadow(0 0 20px pink);
@@ -1432,16 +1579,154 @@
         width: 60%;
         }
         /*--------x------Sponsors----x-----*/
-
-        footer{
-            display: flex;
-            justify-content: center;
+        
+        
+        /*--------x------Contact----x-----
+        .contact {
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        position: relative;
+        box-sizing: content-box;
+        padding: 0;
+    }
+        .container{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: 80vh;
+        border-radius: 20px;
+        position: relative;
+        transition: 1.5s ease-in-out;
+        transform-style: preserve-3d;
+        padding-top: 30px;
+    }
+        .side{
+        position: absolute;
+        text-align: center;
+        max-width: 30%;
+        max-height: 80%;
+        padding: 20px 20px;
+        color: white;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        border-radius: 20px;
         }
-
-        footer .sliet{
-             display: none;
+        .content1{
+        transform: translateZ(100px) scale(0.8);
+        line-height: 1.5em;
+    }
+        .content1 h1{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Abel', 'sans-serif';
+        padding-top: 0;
+    }
+        .content1 h1:before{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 3px;
+        background-color: white;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
         }
+        .front{
+        z-index: 50;
+        background-image: url('../images/cc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        font-family: 'Abel', 'sans-serif';
+        }
+        .back{
+        background-color: #333;
+        transform: rotateY(180deg);
+        z-index: 10;
+        padding-top: 10px;
+        background-image: url('../images/cc1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Abel', 'sans-serif';
+        }
+        .container:hover{
+        transform: rotateY(180deg);
+    }
+        .back h1{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -10px;
+        }
+        form label, form input{
+        display: block;
+        text-align: left;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        font-family: 'Abel', 'sans-serif';
+    }
+        form input, form textarea{
+        background: transparent;
+        border: 0;
+        border-bottom: 2px solid white;
+        padding: 0;
+        width: 100%;
+        font-size: 17px;
+        font-family: 'Abel', 'sans-serif';
+        color: white;
+        outline: none;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+        form label{
+        margin: 10px 0;
+        font-family: 'Abel', 'sans-serif';
+    }
+        form input[type="submit"]{
+        display: block;
+        width: auto;
+        margin: 10px auto;
+        padding: 5px 10px;
+        border: 3px solid white;
+        font-family: 'Abel', 'sans-serif';
+        border-radius: 4px;
+        color: white;
+        transition: all 0.5s ease;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+        form input[type="submit"]:hover{
+        background-color: crimson;
+        color: white;
+        transform: scale(1.1);
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+        form{
+        padding: 0;
+    }
 
+        /*--------x------Contact----x-----*/
+
+        footer {
+      background: rgb(24, 24, 24);
+      padding: 30px 20px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      position: relative;
+      z-index: 100;
+    }
+        footer span {
+          color: tomato;
+          margin-right: 3px;
+          margin-left: 3px;
+    }
     /*------------x-----------Viewport less than or equal to 768px----------x-----------*/
 
 
@@ -1468,19 +1753,19 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: black;
+            background-color: #070110;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: black;
+            background-color: #070110;
         }
 
         .nav-items{        /*---------UL_Class------------*/
             flex-direction: column;
-            background-color: black;
+            background-color: #070110;
             height: auto;
             transition: height 0.3s ease;
             padding-top: 5%;
@@ -1528,14 +1813,16 @@
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
         margin-top: -5px;
-        z-index: 9;
         justify-content: center;
-        width: 100%;
+        width: 60%;
+        left: 20%;
+        position: relative;
+        z-index: 500;
     }
         
         .nav .nav-brand img{
             height: 70px;
-            width: 60%;
+            width: 100%;
         }
 
         .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
@@ -1653,10 +1940,21 @@
             font-size: 16px;
         }
 
-        form{
-        padding: 0 12%;
-        }
         /*--------x------OurWork----x-----*/
+        
+        
+        /*--------x------ContactUs----x-----*/
+        .side{
+            max-width: 24%;
+        }
+        
+        form{
+        padding: 0;
+        }
+        
+        /*--------x------ContactUs----x-----*/
+        
+        
 
     /*------------x-----------Viewport less than or equal to 392px----------x-----------*/
 
@@ -1684,20 +1982,20 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: black;
+            background-color: #070110;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: black;
+            background-color: #070110;
         }
 
         .nav-items{        /*---------UL_Class------------*/
             flex-direction: column;
-            background-color: black;
+            background-color: #070110;
             height: auto;
             transition: height 0.3s ease;
-            padding-top: 1%;
+            padding-top: 5%;
         }
 
         .nav .collapse{
@@ -1720,6 +2018,7 @@
         width: 100%;
         font-weight: 500;
         display: block;
+        color: white;
         }
 
         .nav .toggle-collapse{
@@ -1737,13 +2036,17 @@
         .nav .nav-brand a{        /*-------Endeavour-Icon--------*/
         display: flex;
         margin-top: -5px;
-        z-index: 9;
+        position: relative;
+        z-index: 50;
+        left: 16%;
         justify-content: center;
-        width: 100%;
+        width: 60%;
     }
         .nav .nav-brand img{
-            width: 50%;
+            width: 100%;
             height: 65px;
+            position: relative;
+            top: 3px;
         }
 
         .nav .social i{ /*-----------Hamburger Menu Social Icons------------*/
@@ -1849,7 +2152,7 @@
         }
 
         form{
-        padding: 0 12%;
+        padding: 0%;
         }
 
         /*--------x------OurWork----x-----*/
