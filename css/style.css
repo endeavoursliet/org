@@ -99,7 +99,7 @@
         background-color: #040919;
         border-bottom-right-radius: 30px;
         border-bottom-left-radius: 30px;
-        filter: drop-shadow(0 30px 20px black);
+        filter: drop-shadow(0 50px 20px black);
     }
 
     .nav .nav-menu{
@@ -1587,38 +1587,162 @@
         /*--------x------Sponsors----x-----*/
         
         /*--------x------Contact----x-----*/
-        .contact{
-            
+        .container{
+            display: flex;
+            width: 40%;
+            height: 80vh;
         }
+        .side{
+            width: 34%;
+            height: 80vh;
+            padding: 18px 40px;
+        }
+        .content1{
+            margin-top: 
+        }
+        
         /*--------x------Contact----x-----*/
         
         
         /*--------x------Contact----x-----
-        .contact {
+    .side{
+        position: absolute;
+        text-align: center;
         width: 100%;
-        height: 100vh;
-        background-color: transparent;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        perspective: 1000px;
+        height: 100%;
+        padding: 5px 40px;
+        color: white;
         transform-style: preserve-3d;
-        position: relative;
-        box-sizing: content-box;
-        padding: 0;
-    }
-        .container{
-        display: flex;
-        justify-content: center;
-        width: 40%;
-        height: 80vh;
+        backface-visibility: hidden;
         border-radius: 20px;
-        position: relative;
-        transition: 1.5s ease-in-out;
-        transform-style: preserve-3d;
-        padding-top: 30px;
     }
+    .content1{
+        transform: translateZ(70px) scale(0.8);
+        line-height: 1.5em;
+        padding: 7% 0 0 0;
+    }
+    .content1 h1{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Abel', 'sans-serif';
+        margin: auto;
+    }
+    .content1 h1:before{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 3px;
+        background-color: white;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .info-contact{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        z-index: 99;
+        font-family: 'Abel','sans-serif';
+    }
+    .ul1 li{
+        padding: 15px 0;
+    }
+    .ul2 li{
+        text-align: justify;
+        padding: 16px 0 16px 290px;
+    }
+    .front{
+        z-index: 50;
+        background-image: url('../images/cc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    .back{
+        background-color: #333;
+        transform: rotateY(180deg);
+        z-index: 10;
+        padding-top: 10px;
+        background-image: url('../images/cc1.jpg');
+        background-size: cover;
+    }
+    .container:hover{
+        transform: rotateY(180deg);
+    }
+    .back h1{
+        margin: 0;
+    }
+    .content2{
+        transform: translateZ(70px) scale(0.8);
+        line-height: 1.5em;
+        padding: 2% 0 0 0;
+    }
+    .content2 h1{
+        position: relative;
+        font-size: 40px;
+        font-family: 'Abel', 'sans-serif';
+        margin: auto;
+    }
+    .content2 h1:before{
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 3px;
+        background-color: white;
+        width: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    form label, form input{
+        display: block;
+        text-align: left;
+        font-size: 23px;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+    form input, form textarea{
+        background: transparent;
+        border: 0;
+        border-bottom: 2px solid white;
+        padding: 1px;
+        width: 100%;
+        font-size: 17px;
+        color: white;
+        outline: none;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+
+    form textarea{
+        position: relative;
+        height: 13vh; 
+    }
+    form label{
+        margin: 10px 0;
+    }
+    form input[type="submit"]{
+        display: block;
+        width: auto;
+        margin: 10px auto;
+        padding: 5px 10px;
+        border: 3px solid white;
+        border-radius: 4px;
+        color: white;
+        transition: all 0.5s ease;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+    form input[type="submit"]:hover{
+        background-color: yellow;
+        color: black;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+    }
+        /*--------x------Contact----x-----*/
+        
+        
+        /*--------x------ContactGood----x-----
         .side{
         position: absolute;
         text-align: center;
