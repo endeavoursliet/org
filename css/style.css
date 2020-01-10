@@ -96,7 +96,7 @@
         transition: height 0.4s ease;
         z-index: 1000;  
         transition: all 1s;
-        background-color: #070110;
+        background-color: #060D22;
         border-bottom-right-radius: 30px;
         border-bottom-left-radius: 30px;
         filter: drop-shadow(0 30px 20px black);
@@ -138,7 +138,7 @@
         display: flex;
         margin: 0;
         z-index: 1000;
-        background-color: #070110;
+        background-color: #060D22;
     }
 
     .nav .nav-items .nav-link{
@@ -156,11 +156,11 @@
     }
     .nav .nav-items .nav-link a{
         display: block;
-        color: #EA65B2;
+        color: white;
     }
 
     .nav .nav-items .nav-link:hover a{
-        color: white;
+        color: antiquewhite;
         z-index: 9;
         cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     }
@@ -1383,7 +1383,7 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: #070110;
+            background-color: #060D22;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
             filter: drop-shadow(0 15px 15px black);
@@ -1391,7 +1391,7 @@
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: #070110;
+            background-color: #060D22;
         }
 
         .nav-items{        /*---------UL_Class------------*/
@@ -1428,7 +1428,7 @@
         .nav .toggle-collapse{
             display: initial;
             width: 100%;
-            background-color: #070110;
+            background-color: #060D22;
         }
 
         .nav .toggle-collapse .toggle-icons i{
@@ -1753,19 +1753,19 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: #070110;
+            background-color: #060D22;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: #070110;
+            background-color: #060D22;
         }
 
         .nav-items{        /*---------UL_Class------------*/
             flex-direction: column;
-            background-color: #070110;
+            background-color: #060D22;
             height: auto;
             transition: height 0.3s ease;
             padding-top: 5%;
@@ -1982,17 +1982,17 @@
             padding: 0;
             transition: height 0.3s ease;
             scroll-behavior: smooth;
-            background-color: #070110;
+            background-color: #060D22;
         } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
-            background-color: #070110;
+            background-color: #060D22;
         }
 
         .nav-items{        /*---------UL_Class------------*/
             flex-direction: column;
-            background-color: #070110;
+            background-color: #060D22;
             height: auto;
             transition: height 0.3s ease;
             padding-top: 5%;
