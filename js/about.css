@@ -1064,19 +1064,20 @@ ul {
 }
 
 footer {
-  background: rgb(24, 24, 24);
-  box-sizing: content-box;
-  display: flex;
-  padding: 0px 20px;
-  justify-content: space-between;
-  color: #fff;
-}
-
-footer span {
-  color: tomato;
-  margin-right: 3px;
-  margin-left: 3px;
-}
+      background: rgb(24, 24, 24);
+      padding: 30px 20px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      position: relative;
+      z-index: 100;
+    }
+     footer span {
+          color: tomato;
+          margin-right: 3px;
+          margin-left: 3px;
+    }
 
 .members-area {
   display: flex;
