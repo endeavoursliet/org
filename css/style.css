@@ -1375,7 +1375,7 @@
         padding: 1px;
         width: 100%;
         font-size: 17px;
-        color: white;
+        color: pink;
         outline: none;
         cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     }
@@ -1758,62 +1758,27 @@
             width: 36%;
             padding: 2% 3%;
         }
+        .back .content2{
+            padding-top: 2rem;
+            margin-bottom: 1rem;
+        }
         
         form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             padding: 0;
             margin: 0;
             width: 100%;
+            transform: translateZ(70px);
         }
         
+        form input{
+            font-size: 1.08rem;   
+        }
         /*--------x------Contact----x-----*/
         
         /*--------x------ContactGood----x-----
-        .front{
-        z-index: 50;
-        background-image: url('../images/cc.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: white;
-        font-family: 'Abel', 'sans-serif';
-        }
-        .back{
-        background-color: #333;
-        transform: rotateY(180deg);
-        z-index: 10;
-        padding-top: 10px;
-        background-image: url('../images/cc1.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: 'Abel', 'sans-serif';
-        }
-        .container:hover{
-        transform: rotateY(180deg);
-    }
-        .back h1{
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: -10px;
-        }
-        form label, form input{
-        display: block;
-        text-align: left;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-        font-family: 'Abel', 'sans-serif';
-    }
-        form input, form textarea{
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid white;
-        padding: 0;
-        width: 100%;
-        font-size: 17px;
-        font-family: 'Abel', 'sans-serif';
-        color: white;
-        outline: none;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
         form label{
         margin: 10px 0;
         font-family: 'Abel', 'sans-serif';
@@ -1822,14 +1787,14 @@
         /*--------x------Contact----x-----*/
 
         footer {
-      background: rgb(24, 24, 24);
-      padding: 30px 20px;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: space-between;
-      color: #fff;
-      position: relative;
-      z-index: 100;
+          background: rgb(24, 24, 24);
+          padding: 30px 20px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          color: #fff;
+          position: relative;
+          z-index: 100;
     }
         footer span {
           color: tomato;
@@ -2099,13 +2064,27 @@
         }
         
         .back{
-            width: 26%;
+            width: 28%;
+            padding: 2% 3%;
+        }
+        
+        .back .content2{
+            padding: 1rem 0 0 0;
+        }
+        .back h1{
+            font-size: 2rem;
         }
         
         form{
             padding: 0;
             margin: 0;
             width: 100%;
+        }
+        form label{
+            font-size: 1rem;
+        }
+        form input{
+            font-size: 0.9rem;
         }
         /*--------x------ContactUs----x-----*/
         
@@ -2311,5 +2290,73 @@
         }
 
         /*--------x------OurWork----x-----*/
+        
+        .container{
+            display: flex;
+            width: 30%;
+            height: 80vh;
+        }
+        .side{
+            width: 40%;
+            height: 80vh;
+            padding: 2% 4.5%;
+        }
+        .content1{
+            padding-top: 0.5rem;
+        }
+        .content1 h1{
+            position: relative;
+            font-size: 2rem;
+            padding-top: 1rem;
+        }
+        .front{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 20%;
+            padding: 2% 3%;
+            background-image: url('../images/map2.jpg');
+        }
+        
+        .heading-contact{
+        font-size: 1rem;
+        }
+        
+        .info-contact{
+            font-size: 1rem;
+        }
+        
+        .ul1 li{
+            padding: 0.2rem;
+            margin: 0;
+        }
+        
+        .ul2 li{
+            padding: 0.2rem;
+        }
+        
+        .back{
+            width: 20%;
+            padding: 2% 3%;
+        }
+        
+        .back .content2{
+            padding: 0.8rem 0 0 0;
+        }
+        .back h1{
+            font-size: 1.8rem;
+        }
+        
+        form{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        form label{
+            font-size: 1rem;
+        }
+        form input{
+            font-size: 0.7rem;
+        }
 
     /*------------x-----------Viewport less than or equal to 320px----------x-----------*/
