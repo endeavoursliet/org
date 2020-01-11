@@ -1279,6 +1279,7 @@
         padding-top: 2rem;
         z-index: 99;
         font-family: 'Abel','sans-serif';
+        color: white;
     }
     .ul1 li{
         padding: 15px 0;
@@ -1289,7 +1290,7 @@
         transform: translateZ(70px) translateX(40px);
     }
     .heading-contact{
-        color: crimson;
+        color: yellow;
         font-size: 1.48rem;
         padding: 0;
         margin: 0;
@@ -1305,7 +1306,7 @@
     }
     .front{
         z-index: 50;
-        background-image: url('../images/cc.jpg');
+        background-image: url('../images/map3.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         color: white;
@@ -1725,6 +1726,7 @@
         .front{
             width: 36%;
             padding: 2% 3%;
+            background-image: url('../images/map2.jpg');
         }
         
         .info-contact{
@@ -1765,145 +1767,7 @@
         
         /*--------x------Contact----x-----*/
         
-        
-        /*--------x------Contact----x-----
-    .content1{
-        transform: translateZ(70px) scale(0.8);
-        line-height: 1.5em;
-        padding: 7% 0 0 0;
-    }
-    .content1 h1{
-        position: relative;
-        font-size: 40px;
-        font-family: 'Abel', 'sans-serif';
-        margin: auto;
-    }
-    .content1 h1:before{
-        content: "";
-        position: absolute;
-        bottom: -15px;
-        height: 3px;
-        background-color: white;
-        width: 70px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .info-contact{
-        display: flex;
-        justify-content: flex-start;
-        font-size: 24px;
-        text-align: justify;
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-        z-index: 99;
-        font-family: 'Abel','sans-serif';
-    }
-    .ul1 li{
-        padding: 15px 0;
-    }
-    .ul2 li{
-        text-align: justify;
-        padding: 16px 0 16px 290px;
-    }
-    .front{
-        z-index: 50;
-        background-image: url('../images/cc.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: white;
-    }
-    .back{
-        background-color: #333;
-        transform: rotateY(180deg);
-        z-index: 10;
-        padding-top: 10px;
-        background-image: url('../images/cc1.jpg');
-        background-size: cover;
-    }
-    .container:hover{
-        transform: rotateY(180deg);
-    }
-    .back h1{
-        margin: 0;
-    }
-    .content2{
-        transform: translateZ(70px) scale(0.8);
-        line-height: 1.5em;
-        padding: 2% 0 0 0;
-    }
-    .content2 h1{
-        position: relative;
-        font-size: 40px;
-        font-family: 'Abel', 'sans-serif';
-        margin: auto;
-    }
-    .content2 h1:before{
-        content: "";
-        position: absolute;
-        bottom: -15px;
-        height: 3px;
-        background-color: white;
-        width: 70px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    form label, form input{
-        display: block;
-        text-align: left;
-        font-size: 23px;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-    form input, form textarea{
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid white;
-        padding: 1px;
-        width: 100%;
-        font-size: 17px;
-        color: white;
-        outline: none;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-
-    form textarea{
-        position: relative;
-        height: 13vh; 
-    }
-    form label{
-        margin: 10px 0;
-    }
-    form input[type="submit"]{
-        display: block;
-        width: auto;
-        margin: 10px auto;
-        padding: 5px 10px;
-        border: 3px solid white;
-        border-radius: 4px;
-        color: white;
-        transition: all 0.5s ease;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-    form input[type="submit"]:hover{
-        background-color: yellow;
-        color: black;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-        /*--------x------Contact----x-----*/
-        
-        
         /*--------x------ContactGood----x-----
-        .content1 h1:before{
-        content: "";
-        position: absolute;
-        bottom: -15px;
-        height: 3px;
-        background-color: white;
-        width: 70px;
-        left: 50%;
-        transform: translateX(-50%);
-        }
         .front{
         z-index: 50;
         background-image: url('../images/cc.jpg');
@@ -1953,27 +1817,6 @@
         form label{
         margin: 10px 0;
         font-family: 'Abel', 'sans-serif';
-    }
-        form input[type="submit"]{
-        display: block;
-        width: auto;
-        margin: 10px auto;
-        padding: 5px 10px;
-        border: 3px solid white;
-        font-family: 'Abel', 'sans-serif';
-        border-radius: 4px;
-        color: white;
-        transition: all 0.5s ease;
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-        form input[type="submit"]:hover{
-        background-color: crimson;
-        color: white;
-        transform: scale(1.1);
-        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
-    }
-        form{
-        padding: 0;
     }
 
         /*--------x------Contact----x-----*/
@@ -2214,14 +2057,56 @@
         
         
         /*--------x------ContactUs----x-----*/
+        .container{
+            display: flex;
+            width: 40%;
+            height: 80vh;
+        }
         .side{
-            max-width: 24%;
+            width: 40%;
+            height: 80vh;
+            padding: 2% 4.5%;
+        }
+        .content1{
+            padding-top: 0.5rem;
+        }
+        .content1 h1{
+            position: relative;
+            font-size: 2rem;
+            padding-top: 1rem;
+        }
+        .front{
+            width: 28%;
+            padding: 2% 3%;
+            background-image: url('../images/map2.jpg');
+        }
+        
+        .heading-contact{
+        font-size: 1.2rem;
+        }
+        
+        .info-contact{
+            font-size: 1rem;
+        }
+        
+        .ul1 li{
+            padding: 0.3rem;
+            margin: 0;
+        }
+        
+        .ul2 li{
+            padding: 0.3rem;
+        }
+        
+        .back{
+            width: 26%;
         }
         
         form{
-        padding: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
         }
-        
         /*--------x------ContactUs----x-----*/
         
         
