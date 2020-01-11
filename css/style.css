@@ -68,6 +68,7 @@
     a{
         text-decoration: none;
         color: white;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
     }
 
     .flex-row{
@@ -1406,6 +1407,9 @@
 
     /*-------------x-----------ContactUs_Section------------x-------------*/
 
+    /*-------------x-----------VideoLinks_Section------------x-------------*/
+    /*-------------x-----------VideoLinks_Section------------x-------------*/
+
 
     /*-------------x-----------Footer_Section------------x-------------*/
      footer {
@@ -1791,7 +1795,7 @@
           padding: 30px 20px;
           box-sizing: border-box;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           color: #fff;
           position: relative;
           z-index: 100;
@@ -2205,7 +2209,6 @@
         padding-top: 10%;
         }
         /*----x---AboutInfoParagraph---x--*/
-
 
         /*----------------Mission_&_Vision-------*/
 
