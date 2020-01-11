@@ -56,7 +56,12 @@
         box-sizing: border-box;
         overflow-x: hidden;
         font-family: 'Abel', 'sans-serif';
-    }
+        -webkit-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -khtml-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -moz-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -ms-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+}
     /*-----------x----------Custom----------x------------*/
 
     /*----------------------Global-Classes----------------------*/
@@ -94,11 +99,23 @@
         min-height: 10vh;
         overflow: hidden;
         transition: height 0.4s ease;
+        -webkit-transition: height 0.4s ease;
+        -khtml-transition: height 0.4s ease;
+        -moz-transition: height 0.4s ease;
+        -ms-transition: height 0.4s ease;
         z-index: 1000;  
         transition: all 1s;
+        -webkit-transition: all 1s;
+        -khtml-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
         background-color: #040919;
         border-bottom-right-radius: 30px;
         border-bottom-left-radius: 30px;
+        -webkit-filter: drop-shadow(0 50px 20px black);
+        -khtml-filter: drop-shadow(0 50px 20px black);
+        -moz-filter: drop-shadow(0 50px 20px black);
+        -ms-filter: drop-shadow(0 50px 20px black);
         filter: drop-shadow(0 50px 20px black);
     }
 
@@ -239,6 +256,10 @@
     }
     .home .home-info .col2 img{
         max-width: 100%;
+        -webkit-animation: glow 5s linear infinite alternate;
+        -ms-animation: glow 5s linear infinite alternate;
+        -khtml-animation: glow 5s linear infinite alternate;
+        -moz-animation: glow 5s linear infinite alternate;
         animation: glow 5s linear infinite alternate;
 }
     @keyframes glow{
@@ -310,7 +331,8 @@
 
     .timeline{
         margin-top: 50px;
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
 
     .timeline .col{
@@ -418,7 +440,6 @@
         text-align: center;
     }
 
-
     .domain .col{
         width: 30%;
         margin: 25px 30px;
@@ -430,6 +451,10 @@
 
     .domain .col:hover{
         filter: drop-shadow(0 0 10px pink);
+        -webkit-filter: drop-shadow(0 0 10px pink);
+        -ms-filter: drop-shadow(0 0 10px pink);
+        -khtml-filter: drop-shadow(0 0 10px pink);
+        -moz-filter: drop-shadow(0 0 10px pink);
     }
 
     .domain .col img{
@@ -479,6 +504,10 @@
         overflow: hidden;
         transition: 3s;
         filter: drop-shadow(-30px 30px 10px black);
+        -webkit-filter: drop-shadow(-30px 30px 10px black);
+        -ms-filter: drop-shadow(-30px 30px 10px black);
+        -khtml-filter: drop-shadow(-30px 30px 10px black);
+        -moz-filter: drop-shadow(-30px 30px 10px black);
     }
     .card span{
         height: 100%;
@@ -510,6 +539,10 @@
         transition-delay: 0.8s;
     }
     .card:hover span{
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -khtml-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
         transform: translateY(-100%);
         transition: 1s;
     }
@@ -532,6 +565,10 @@
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -khtml-transform: translateY(100%);
+        -moz-transform: translateY(100%);
         transform: translateY(100%);
         transition: 1.8s;
         font-size: 22px;
@@ -542,10 +579,18 @@
         font-size: 17px;
     }
     .card:hover .content{
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -khtml-transform: translateY(0%);
+        -moz-transform: translateY(0%);
         transform: translateY(0%);
     }
     .card:hover{
-    filter: drop-shadow(0 0 20px pink);
+        -webkit-filter: drop-shadow(0 0 20px pink);
+        -ms-filter: drop-shadow(0 0 20px pink);
+        -khtml-filter: drop-shadow(0 0 20px pink);
+        -moz-filter: drop-shadow(0 0 20px pink);
+        filter: drop-shadow(0 0 20px pink);
     }
 
     .card span1{
@@ -578,6 +623,10 @@
         transition-delay: 0.8s;
     }
     .card:hover span1{
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -khtml-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
         transform: translateY(-100%);
         transition: 1s;
     }
@@ -1131,6 +1180,10 @@
     }
 
     .sponsors .col1:hover{
+        -webkit-filter: drop-shadow(0px 0px 15px red);
+        -ms-filter: drop-shadow(0px 0px 15px red);
+        -khtml-filter: drop-shadow(0px 0px 15px red);
+        -moz-filter: drop-shadow(0px 0px 15px red);
         filter: drop-shadow(0px 0px 15px red); 
     }
 
@@ -1163,6 +1216,10 @@
         border-radius: 20px;
         position: relative;
         transition: 1.5s ease-in-out;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        -khtml-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
         transform-style: preserve-3d;
         padding: 0;
         margin: 0;
@@ -1174,11 +1231,19 @@
         height: 100%;
         padding: 5px 40px;
         color: white;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        -khtml-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
         transform-style: preserve-3d;
         backface-visibility: hidden;
         border-radius: 20px;
     }
     .content1{
+        -webkit-transform: translateZ(70px) scale(0.8);
+        -ms-transform: translateZ(70px) scale(0.8);
+        -khtml-transform: translateZ(70px) scale(0.8);
+        -moz-transform: translateZ(70px) scale(0.8);
         transform: translateZ(70px) scale(0.8);
         line-height: 1.5em;
         padding: 7% 0 0 0;
@@ -1197,26 +1262,46 @@
         background-color: white;
         width: 70px;
         left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -khtml-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
         transform: translateX(-50%);
     }
     .info-contact{
         display: flex;
         justify-content: flex-start;
-        font-size: 24px;
+        font-size: 1.2rem;
         text-align: justify;
         width: 100%;
-        height: auto;
+        height: 100%;
         margin: 0;
-        padding: 0;
+        padding-top: 2rem;
         z-index: 99;
         font-family: 'Abel','sans-serif';
     }
     .ul1 li{
         padding: 15px 0;
+        -webkit-transform: translateZ(70px) translateX(40px);
+        -ms-transform: translateZ(70px) translateX(40px);
+        -khtml-transform: translateZ(70px) translateX(40px);
+        -moz-transform: translateZ(70px) translateX(40px);
+        transform: translateZ(70px) translateX(40px);
+    }
+    .heading-contact{
+        color: crimson;
+        font-size: 1.48rem;
+        padding: 0;
+        margin: 0;
     }
     .ul2 li{
         text-align: justify;
-        padding: 16px 0 16px 290px;
+        padding: 15px 0 15px 392px;
+        -webkit-transform: translateZ(70px);
+        -ms-transform: translateZ(70px);
+        -khtml-transform: translateZ(70px);
+        -moz-transform: translateZ(70px);
+        transform: translateZ(70px);
     }
     .front{
         z-index: 50;
@@ -1227,6 +1312,10 @@
     }
     .back{
         background-color: #333;
+        -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -khtml-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
         transform: rotateY(180deg);
         z-index: 10;
         padding-top: 10px;
@@ -1234,12 +1323,20 @@
         background-size: cover;
     }
     .container:hover{
+        -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -khtml-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
     .back h1{
         margin: 0;
     }
     .content2{
+        -webkit-transform: translateZ(70px) scale(0.8);
+        -ms-transform: translateZ(70px) scale(0.8);
+        -khtml-transform: translateZ(70px) scale(0.8);
+        -moz-transform: translateZ(70px) scale(0.8);
         transform: translateZ(70px) scale(0.8);
         line-height: 1.5em;
         padding: 2% 0 0 0;
@@ -1258,6 +1355,10 @@
         background-color: white;
         width: 70px;
         left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -khtml-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
         transform: translateX(-50%);
     }
     form label, form input{
@@ -1350,6 +1451,10 @@
         }
         
         .home .home-info .col2 img{
+        -webkit-animation: glow 5s linear infinite alternate;
+        -ms-animation: glow 5s linear infinite alternate;
+        -khtml-animation: glow 5s linear infinite alternate;
+        -moz-animation: glow 5s linear infinite alternate;
         animation: glow 5s linear infinite alternate;
         }
         @keyframes glow{
@@ -1386,8 +1491,12 @@
             background-color: #040919;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
-            filter: drop-shadow(0 15px 15px black);
-        } 
+            -webkit-filter: drop-shadow(0 50px 20px black);
+            -khtml-filter: drop-shadow(0 50px 20px black);
+            -moz-filter: drop-shadow(0 50px 20px black);
+            -ms-filter: drop-shadow(0 50px 20px black);
+            filter: drop-shadow(0 50px 20px black);
+            } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
             flex-direction: column;
@@ -1558,9 +1667,17 @@
         border-radius: 10%;
         z-index: 1;
         overflow: hidden;
+        -webkit-filter: drop-shadow(-20px 25px 10px black);
+        -khtml-filter: drop-shadow(-20px 25px 10px black);
+        -moz-filter: drop-shadow(-20px 25px 10px black);
+        -ms-filter: drop-shadow(-20px 25px 10px black);
         filter: drop-shadow(-20px 25px 10px black);
         }
         .card:hover{
+        -webkit-filter: drop-shadow(0 0 20px pink);
+        -khtml-filter: drop-shadow(0 0 20px pink);
+        -moz-filter: drop-shadow(0 0 20px pink);
+        -ms-filter: drop-shadow(0 0 20px pink);
         filter: drop-shadow(0 0 20px pink);
         }
         
@@ -1593,29 +1710,63 @@
             height: 80vh;
         }
         .side{
-            width: 34%;
+            width: 40%;
             height: 80vh;
-            padding: 18px 40px;
+            padding: 2% 4.5%;
         }
         .content1{
-            margin-top: 
+            padding-top: 0.5rem;
+        }
+        .content1 h1{
+            position: relative;
+            font-size: 2.2rem;
+            padding-top: 1rem;
+        }
+        .front{
+            width: 36%;
+            padding: 2% 3%;
+        }
+        
+        .info-contact{
+            font-size: 1.2rem;
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+        }
+        
+        .ul1{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            transform: translateX(-40px) translateZ(70px);
+            margin: 0;
+            
+        }
+        .ul1 li{
+            padding: 0.5rem;
+            margin: 0;
+        }
+        
+        .ul2 li{
+            padding: 0.5rem;
+            text-align: center;
+        }
+        
+        .back{
+            width: 36%;
+            padding: 2% 3%;
+        }
+        
+        form{
+            padding: 0;
+            margin: 0;
+            width: 100%;
         }
         
         /*--------x------Contact----x-----*/
         
         
         /*--------x------Contact----x-----
-    .side{
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        padding: 5px 40px;
-        color: white;
-        transform-style: preserve-3d;
-        backface-visibility: hidden;
-        border-radius: 20px;
-    }
     .content1{
         transform: translateZ(70px) scale(0.8);
         line-height: 1.5em;
@@ -1743,27 +1894,6 @@
         
         
         /*--------x------ContactGood----x-----
-        .side{
-        position: absolute;
-        text-align: center;
-        max-width: 30%;
-        max-height: 80%;
-        padding: 20px 20px;
-        color: white;
-        transform-style: preserve-3d;
-        backface-visibility: hidden;
-        border-radius: 20px;
-        }
-        .content1{
-        transform: translateZ(100px) scale(0.8);
-        line-height: 1.5em;
-    }
-        .content1 h1{
-        position: relative;
-        font-size: 40px;
-        font-family: 'Abel', 'sans-serif';
-        padding-top: 0;
-    }
         .content1 h1:before{
         content: "";
         position: absolute;
@@ -2064,6 +2194,10 @@
         overflow: hidden;
     }
         .card:hover{
+        -webkit-filter: drop-shadow(0 0 20px pink);
+        -khtml-filter: drop-shadow(0 0 20px pink);
+        -moz-filter: drop-shadow(0 0 20px pink);
+        -ms-filter: drop-shadow(0 0 20px pink);
         filter: drop-shadow(0 0 20px pink);
         }
         
