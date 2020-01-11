@@ -1492,11 +1492,11 @@
             background-color: #040919;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
-            -webkit-filter: drop-shadow(0 50px 20px black);
-            -khtml-filter: drop-shadow(0 50px 20px black);
-            -moz-filter: drop-shadow(0 50px 20px black);
-            -ms-filter: drop-shadow(0 50px 20px black);
-            filter: drop-shadow(0 50px 20px black);
+            -webkit-filter: drop-shadow(0 60px 20px black);
+            -khtml-filter: drop-shadow(0 60px 20px black);
+            -moz-filter: drop-shadow(0 60px 20px black);
+            -ms-filter: drop-shadow(0 60px 20px black);
+            filter: drop-shadow(0 60px 20px black);
             } 
 
         .nav .nav-menu{           /*-------Nav_Between_Spaces------*/
