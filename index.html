@@ -315,7 +315,7 @@
                         <div class="content2">
                             <h1>Contact Us</h1>
                         </div>
-                            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe15CEhl5uk1ve2k7zHuQ7KIGwXO5p5jARFJSzGA1J3u7urLw/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+                            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe15CEhl5uk1ve2k7zHuQ7KIGwXO5p5jARFJSzGA1J3u7urLw/formResponse" method="post" target="hidden_iframe" onsubmit="myFunction()">
                                 <label>Name</label>
                                 <input type="text" placeholder="Enter Your Full Name" required name="entry.1162856307">
                                 <label>Contact No.</label>
@@ -328,7 +328,7 @@
                                 <textarea placeholder="Enter Your Message..." required name="entry.459467100"></textarea>
                                 <input type="submit" value="Submit">
                                 </form>
-                    </div>
+                        </div>
         </div>
           
     </section>
@@ -340,10 +340,18 @@
       </Footer>
     <!------------x------------ContactUs_Section--------------x----------->
     
-    <!------------x------------Update_Page_after_Submit_Form--------------x----------->
+    <!------------------------Update_Page_after_Submit_Form------------------------->
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://endeavoursliet.github.io/org/';}"></iframe>
     <!------------x------------Update_Page_after_Submit_Form--------------x----------->
-
+    
+    
+    <!------------------------Update_Page_after_Submit_Form_Script--------------x----------->
+    <script>
+        function myFunction() {
+            alert("Your response has been submitted successfully");
+        }
+    </script>
+    <!------------------------Update_Page_after_Submit_Form_Script--------------x----------->
 
     <!-----------------Jquery Library File------------>
     <script src="./js/Jquery3.4.1.min.js"></script>
