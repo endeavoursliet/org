@@ -1716,7 +1716,6 @@
         }
         .side{
             width: 40%;
-            height: 80vh;
             padding: 2% 4.5%;
         }
         .content1{
@@ -1764,7 +1763,7 @@
         }
         .back .content2{
             padding-top: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         
         form{
@@ -1778,7 +1777,7 @@
         }
         
         form input{
-            font-size: 1.08rem;   
+            font-size: 1.08rem;
         }
         /*--------x------Contact----x-----*/
         
@@ -2033,7 +2032,6 @@
         }
         .side{
             width: 40%;
-            height: 80vh;
             padding: 2% 4.5%;
         }
         .content1{
@@ -2301,7 +2299,6 @@
         }
         .side{
             width: 40%;
-            height: 80vh;
             padding: 2% 4.5%;
         }
         .content1{
