@@ -4,7 +4,12 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: #080213;
-  font-family: 'Abel','sans-serif';
+  font-family: "PT Sans Narrow", sans-serif;
+    -webkit-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -khtml-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -moz-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        -ms-cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
+        cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1164.png), auto !important;
 }
 
 /*----------------------Global-Classes----------------------*/
@@ -102,7 +107,6 @@ ul {
 
 .img-wrapper h2 {
   background: tomato;
-  font-family: Poppins;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -1063,20 +1067,6 @@ ul {
   color: tomato;
 }
 
-footer {
-  background: rgb(24, 24, 24);
-  box-sizing: content-box;
-  display: flex;
-  padding: 0px 20px;
-  justify-content: space-between;
-  color: #fff;
-}
-
-footer span {
-  color: tomato;
-  margin-right: 3px;
-  margin-left: 3px;
-}
 
 .members-area {
   display: flex;
